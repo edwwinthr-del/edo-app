@@ -14,22 +14,23 @@ Base URL tested: `http://127.0.0.1:5500`
 | `projects.html?id=mn-ecommerce` | Passed | Not separately captured | Passed |
 | `projects.html?id=ebook-commerce` | Passed | Not separately captured | Passed |
 | `projects.html?id=bato-detailing` | Passed | Not separately captured | Passed |
+| `projects.html?id=radarme` | Passed | Passed | Passed |
 | `projects.html?id=crypto-ai-report` | Passed | Not separately captured | Passed |
 | English, Turkish and Serbian homepage variants | Passed | Passed | Passed |
 | English, Turkish and Serbian project variants | Passed | Passed | Passed |
 
 ## Automated and manual checks
 
-- JSON syntax validated for all five data files.
+- JSON syntax validated for all eight data files.
 - JavaScript syntax checked with Node.js.
-- All five homepage project cards rendered.
+- All six homepage project cards rendered.
 - Six skill cards and both employment timeline entries rendered.
 - Every selected project presentation loaded the correct title, screenshot set, statistics and GitHub URL.
 - All catalog project images loaded with non-zero natural dimensions.
 - No browser console errors or failed requests occurred on the final static site.
 - No horizontal page scrolling occurred at 1440 px or 390 px after layout fixes.
-- Mobile screenshot frames were rechecked at 320 px and 390 px across the homepage and all five project routes; loaded screenshot boxes matched their source image aspect ratios with no cropping.
-- Project screenshot corners are unobstructed: card numbers and actions sit outside the image, gradient masks were removed, and all 18 language/page combinations were checked for `undefined`, `null` or unrendered template text.
+- Mobile screenshot frames were rechecked at 320 px and 390 px across the homepage and all six project routes; loaded screenshot boxes matched their source image aspect ratios with no cropping.
+- Project screenshot corners are unobstructed: card numbers and actions sit outside the image, gradient masks were removed, and all 21 language/page combinations were checked for `undefined`, `null` or unrendered template text.
 - Gradient display headings now extend their paint area below the baseline; descenders were visually checked at desktop width in English, Turkish and Serbian for the hero, experience, projects and contact headings.
 - The language selector preserved the active project ID, updated the document language and page metadata, stored the selection, and reloaded translated interface and project content for `en`, `tr`, and `sr`.
 - Mobile navigation opened, closed and remained keyboard accessible.

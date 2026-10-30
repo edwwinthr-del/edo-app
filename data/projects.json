@@ -299,12 +299,130 @@
       ]
     },
     {
+      "id": "radarme",
+      "name": "RadarME",
+      "subtitle": "Traffic safety app",
+      "category": "Mobile application",
+      "year": "2026",
+      "order": 5,
+      "featured": true,
+      "layout": "mobile",
+      "accent": "#2f7bed",
+      "accentSecondary": "#ffb038",
+      "description": "A Flutter app for Android and iOS that uses live GPS positioning to warn drivers before they reach traffic-enforcement cameras, radar points and average-speed zones across Montenegro.",
+      "github": "https://github.com/edwwinthr-del/RadarMe",
+      "demo": null,
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Cloud Firestore",
+        "flutter_map",
+        "Geolocator",
+        "Android",
+        "iOS"
+      ],
+      "contribution": "Built the Flutter application, map and radar-list interfaces, proximity alarm logic, average-speed zones and configurable background tracking described in the repository.",
+      "problem": "Drivers need useful warnings without watching another screen, including when the app is running in the background or the device is offline.",
+      "solution": "A GPS-driven mobile experience that loads 88 enforcement locations, evaluates proximity and average-speed corridors, and provides configurable sound, vibration and notification alerts.",
+      "features": [
+        "Real-time map with radar and camera markers",
+        "Searchable list of all 88 enforcement locations",
+        "Configurable 300-metre proximity warning radius",
+        "Sound, vibration and notification alarms",
+        "Twenty-seven A-to-B average-speed zones",
+        "Foreground and background location tracking",
+        "Filtering by radar type, city and status",
+        "Offline fallback to the bundled radar dataset",
+        "Light, dark and system display themes"
+      ],
+      "technicalDetails": [
+        "A bounding-box prefilter removes distant locations before distance calculations.",
+        "A 100-metre hysteresis buffer prevents repeated alarms caused by GPS drift.",
+        "Foreground and background isolates share the same proximity engine.",
+        "Average-speed sessions use accumulated ground distance and can expire after one hour.",
+        "Firestore is optional; the app falls back to its bundled JSON dataset."
+      ],
+      "stats": [
+        {
+          "value": "88",
+          "label": "Enforcement locations"
+        },
+        {
+          "value": "27",
+          "label": "Average-speed zones"
+        },
+        {
+          "value": "300 m",
+          "label": "Default alert radius"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/radarme/map.png",
+          "alt": "RadarME map showing enforcement locations around Podgorica",
+          "caption": "Live radar map",
+          "aspect": "566 / 827",
+          "width": 566,
+          "height": 827
+        },
+        {
+          "src": "assets/images/projects/radarme/radar-list.png",
+          "alt": "RadarME list of enforcement locations with search and filters",
+          "caption": "Radar directory",
+          "aspect": "596 / 843",
+          "width": 596,
+          "height": 843
+        },
+        {
+          "src": "assets/images/projects/radarme/speed-zones.png",
+          "alt": "RadarME average-speed zones screen",
+          "caption": "Average-speed zones",
+          "aspect": "592 / 841",
+          "width": 592,
+          "height": 841
+        },
+        {
+          "src": "assets/images/projects/radarme/settings-alerts.png",
+          "alt": "RadarME alert and notification settings",
+          "caption": "Alert preferences",
+          "aspect": "586 / 840",
+          "width": 586,
+          "height": 840
+        },
+        {
+          "src": "assets/images/projects/radarme/settings-display.png",
+          "alt": "RadarME map display and speed-zone settings",
+          "caption": "Display controls",
+          "aspect": "572 / 832",
+          "width": 572,
+          "height": 832
+        },
+        {
+          "src": "assets/images/projects/radarme/settings-background.png",
+          "alt": "RadarME background tracking settings and application details",
+          "caption": "Background tracking",
+          "aspect": "602 / 837",
+          "width": 602,
+          "height": 837
+        },
+        {
+          "src": "assets/images/projects/radarme/splash.png",
+          "alt": "RadarME launch screen",
+          "caption": "Launch experience",
+          "aspect": "507 / 841",
+          "width": 507,
+          "height": 841
+        }
+      ]
+    },
+    {
       "id": "crypto-ai-report",
       "name": "Crypto Market AI Report",
       "subtitle": "Automated data & AI workflow",
       "category": "Automation / AI",
       "year": "2026",
-      "order": 5,
+      "order": 6,
       "featured": true,
       "accent": "#36e7a2",
       "accentSecondary": "#ffcc66",

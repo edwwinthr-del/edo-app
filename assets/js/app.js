@@ -237,7 +237,7 @@ function renderProjects(projects, ui, language) {
     .sort((a, b) => a.order - b.order)
     .map((project, index) => `
       <a
-        class="project-card reveal"
+        class="project-card reveal${project.layout === 'mobile' ? ' project-card--mobile' : ''}"
         data-reveal
         href="projects.html?id=${encodeURIComponent(project.id)}&amp;lang=${encodeURIComponent(language)}"
         style="--project-accent:${escapeHTML(project.accent)};--project-accent-2:${escapeHTML(project.accentSecondary)};--media-aspect:${escapeHTML(project.screens[0].aspect)}"
@@ -247,8 +247,8 @@ function renderProjects(projects, ui, language) {
           <img
             src="${escapeHTML(project.screens[0].src)}"
             alt="${escapeHTML(project.screens[0].alt)}"
-            width="1440"
-            height="900"
+            width="${escapeHTML(project.screens[0].width || 1440)}"
+            height="${escapeHTML(project.screens[0].height || 900)}"
             loading="${index < 2 ? 'eager' : 'lazy'}"
           >
         </div>

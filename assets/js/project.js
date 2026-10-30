@@ -121,12 +121,12 @@ function featureRows(project, ui) {
     const heading = headingMap[index] || headingMap[headingMap.length - 1];
     return `
       <article class="feature-row case-reveal-item">
-        <figure class="feature-media" style="--feature-aspect:${escapeHTML(screen.aspect)}">
+        <figure class="feature-media${project.layout === 'mobile' ? ' feature-media--mobile' : ''}" style="--feature-aspect:${escapeHTML(screen.aspect)}">
           <img
             src="${escapeHTML(screen.src)}"
             alt="${escapeHTML(screen.alt)}"
-            width="1440"
-            height="900"
+            width="${escapeHTML(screen.width || 1440)}"
+            height="${escapeHTML(screen.height || 900)}"
             loading="lazy"
           >
         </figure>
@@ -141,6 +141,33 @@ function featureRows(project, ui) {
       </article>
     `;
   }).join('');
+}
+
+function mobileGallery(project, ui) {
+  if (project.layout !== 'mobile' || project.screens.length <= 3) return '';
+  const galleryScreens = project.screens.slice(3);
+  return `
+    <div class="mobile-gallery case-reveal-item">
+      <div class="mobile-gallery__heading">
+        <span class="section-heading__index">${escapeHTML(ui.project.screensIndex)}</span>
+        <h3>${ui.project.screensTitle}</h3>
+      </div>
+      <div class="mobile-gallery__grid">
+        ${galleryScreens.map(screen => `
+          <figure class="mobile-gallery__item" style="--gallery-aspect:${escapeHTML(screen.aspect)}">
+            <img
+              src="${escapeHTML(screen.src)}"
+              alt="${escapeHTML(screen.alt)}"
+              width="${escapeHTML(screen.width || 1440)}"
+              height="${escapeHTML(screen.height || 900)}"
+              loading="lazy"
+            >
+            <figcaption>${escapeHTML(screen.caption)}</figcaption>
+          </figure>
+        `).join('')}
+      </div>
+    </div>
+  `;
 }
 
 function renderProject(project, allProjects, ui, language) {
@@ -179,19 +206,19 @@ function renderProject(project, allProjects, ui, language) {
         </div>
       </div>
 
-      <div class="case-visual" aria-label="${escapeHTML(project.name)} ${escapeHTML(ui.project.interfacePreview)}">
-        <figure class="case-device" data-float>
+      <div class="case-visual${project.layout === 'mobile' ? ' case-visual--mobile' : ''}" aria-label="${escapeHTML(project.name)} ${escapeHTML(ui.project.interfacePreview)}">
+        <figure class="case-device${project.layout === 'mobile' ? ' case-device--mobile' : ''}" data-float>
           <div class="case-browser-bar" aria-hidden="true"><i></i><i></i><i></i></div>
-          <img src="${escapeHTML(heroScreen.src)}" alt="${escapeHTML(heroScreen.alt)}" width="1440" height="900" fetchpriority="high">
+          <img src="${escapeHTML(heroScreen.src)}" alt="${escapeHTML(heroScreen.alt)}" width="${escapeHTML(heroScreen.width || 1440)}" height="${escapeHTML(heroScreen.height || 900)}" fetchpriority="high">
         </figure>
         ${secondScreen ? `
-          <figure class="case-float case-float--left" data-float>
-            <img src="${escapeHTML(secondScreen.src)}" alt="${escapeHTML(secondScreen.alt)}" width="1440" height="900" loading="lazy">
+          <figure class="case-float case-float--left${project.layout === 'mobile' ? ' case-float--mobile' : ''}" data-float style="--float-aspect:${escapeHTML(secondScreen.aspect)}">
+            <img src="${escapeHTML(secondScreen.src)}" alt="${escapeHTML(secondScreen.alt)}" width="${escapeHTML(secondScreen.width || 1440)}" height="${escapeHTML(secondScreen.height || 900)}" loading="lazy">
           </figure>
         ` : ''}
         ${thirdScreen ? `
-          <figure class="case-float case-float--right" data-float>
-            <img src="${escapeHTML(thirdScreen.src)}" alt="${escapeHTML(thirdScreen.alt)}" width="1440" height="900" loading="lazy">
+          <figure class="case-float case-float--right${project.layout === 'mobile' ? ' case-float--mobile' : ''}" data-float style="--float-aspect:${escapeHTML(thirdScreen.aspect)}">
+            <img src="${escapeHTML(thirdScreen.src)}" alt="${escapeHTML(thirdScreen.alt)}" width="${escapeHTML(thirdScreen.width || 1440)}" height="${escapeHTML(thirdScreen.height || 900)}" loading="lazy">
           </figure>
         ` : ''}
       </div>
@@ -199,8 +226,8 @@ function renderProject(project, allProjects, ui, language) {
 
     <section class="case-scroll" id="application" aria-label="${escapeHTML(ui.project.applicationReveal)}" style="--reveal-aspect:${escapeHTML((secondScreen || heroScreen).aspect)}">
       <div class="case-scroll__sticky">
-        <div class="case-reveal-window" data-reveal-window>
-          <img src="${escapeHTML((secondScreen || heroScreen).src)}" alt="${escapeHTML((secondScreen || heroScreen).alt)}" width="1440" height="900">
+        <div class="case-reveal-window${project.layout === 'mobile' ? ' case-reveal-window--mobile' : ''}" data-reveal-window>
+          <img src="${escapeHTML((secondScreen || heroScreen).src)}" alt="${escapeHTML((secondScreen || heroScreen).alt)}" width="${escapeHTML((secondScreen || heroScreen).width || 1440)}" height="${escapeHTML((secondScreen || heroScreen).height || 900)}">
         </div>
         <div class="case-scroll__copy">
           <p>${escapeHTML(ui.project.revealPrefix)} <strong>${escapeHTML(ui.project.revealMiddle)}</strong> <em>${escapeHTML(project.subtitle)}.</em></p>
@@ -217,6 +244,7 @@ function renderProject(project, allProjects, ui, language) {
         <p class="mini-label">${escapeHTML(project.contribution)}</p>
       </div>
       ${featureRows(project, ui)}
+      ${mobileGallery(project, ui)}
     </section>
 
     <section class="case-section" id="story">
@@ -285,8 +313,8 @@ function renderProject(project, allProjects, ui, language) {
 
     <section class="case-final" id="project-cta">
       <div class="case-final__card case-reveal-item">
-        <figure class="case-final__image" style="--final-aspect:${escapeHTML(heroScreen.aspect)}">
-          <img src="${escapeHTML(heroScreen.src)}" alt="${escapeHTML(heroScreen.alt)}" width="1440" height="900" loading="lazy">
+        <figure class="case-final__image${project.layout === 'mobile' ? ' case-final__image--mobile' : ''}" style="--final-aspect:${escapeHTML(heroScreen.aspect)}">
+          <img src="${escapeHTML(heroScreen.src)}" alt="${escapeHTML(heroScreen.alt)}" width="${escapeHTML(heroScreen.width || 1440)}" height="${escapeHTML(heroScreen.height || 900)}" loading="lazy">
         </figure>
         <span class="case-kicker">${escapeHTML(project.category)} · ${escapeHTML(project.year)}</span>
         <h2>${escapeHTML(project.name)}<br><em>${escapeHTML(project.subtitle)}</em></h2>

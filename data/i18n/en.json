@@ -71,7 +71,6 @@
     "more": {
       "index": "Also explored",
       "title": "More problems,<br>more places to learn.",
-      "radar": "Android and iOS GPS alerts for 88 traffic-enforcement locations in Montenegro.",
       "erpTag": "ERP / Professional work",
       "erp": "Support, feature development, VAT reporting and national e-invoicing integration work.",
       "performanceTag": "Web performance",
@@ -113,6 +112,8 @@
       "returnProjects": "Return to projects",
       "insideIndex": "01 / Inside the product",
       "insideTitle": "Designed for<br><em>actual use.</em>",
+      "screensIndex": "Mobile experience",
+      "screensTitle": "More from<br><em>the app.</em>",
       "thinkingIndex": "02 / The thinking",
       "thinkingTitle": "From problem<br>to <em>working software.</em>",
       "thinkingBody": "The presentation is based on the repository, its documentation and the locally running application.",

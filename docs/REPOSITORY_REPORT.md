@@ -13,7 +13,7 @@ Career source: `Edvin_Tahirovic_CV_.pdf`
 | `EbookEcommerce` | Public, original | Laravel 12, React, Inertia, Stripe | Featured case study | Storefront and admin launched with seeded local data |
 | `n8n-crypto-market-ai-report` | Public, original | n8n, JavaScript, Anthropic API, Telegram API | Featured automation case study | Workflow execution blocked by missing n8n runtime and private credentials; repository screenshot used |
 | `BatoDetailing` | Public, original | Laravel 13, Alpine.js, Tailwind CSS | Featured case study | Site launched with seeded local data |
-| `RadarMe` | Public, original | Flutter, Firebase, GPS/maps | Supporting work only | Could not build because Flutter/Dart was not installed on the capture machine |
+| `RadarMe` | Public, original | Flutter, Firebase, GPS/maps | Featured case study | Screenshots supplied by the project owner; Flutter/Dart was not installed for a local launch |
 | `swot` | Public fork | Kotlin | Excluded | Fork unrelated to Edvin's software portfolio |
 
 No original remote repository was modified or pushed. Repository work was cloned under `tmp/repos` for review and local execution only.
@@ -95,7 +95,7 @@ Execution was not attempted because the local environment does not include n8n a
 
 ### RadarMe
 
-`RadarMe` is a real Flutter application with Firebase fallback behavior, GPS proximity logic, background alarms and 88 bundled radar records. It was not launched because neither Flutter nor Dart was installed in the local environment. It is presented as supporting work rather than as a screenshot-backed case study.
+`RadarMe` is a real Flutter application with Firebase fallback behavior, GPS proximity logic, background alarms and 88 bundled radar records. It was not launched because neither Flutter nor Dart was installed in the local environment. Seven authentic application screens were supplied by the project owner and are now used in its full portfolio presentation.
 
 ### SWOT fork
 
@@ -103,12 +103,13 @@ The `swot` repository is a fork of JetBrains' academic-domain classifier. It was
 
 ## Selected portfolio projects
 
-The site features the five projects that best demonstrate business application development, e-commerce, service operations, security-aware workflows and practical AI:
+The site features the six projects that best demonstrate business application development, e-commerce, mobile development, service operations, security-aware workflows and practical AI:
 
 1. AdminisMine
 2. MnEcommerce
 3. EbookEcommerce
 4. BatoDetailing
-5. Crypto Market AI Report
+5. RadarME
+6. Crypto Market AI Report
 
 All project links point to the exact public repository URLs. No live-demo button is shown because no verified public deployment URL was available.

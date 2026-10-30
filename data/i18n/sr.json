@@ -71,7 +71,6 @@
     "more": {
       "index": "Dodatni radovi",
       "title": "Više problema,<br>više prostora za učenje.",
-      "radar": "Android i iOS GPS upozorenja za 88 lokacija saobraćajne kontrole u Crnoj Gori.",
       "erpTag": "ERP / Profesionalni rad",
       "erp": "Podrška, razvoj funkcija, PDV izveštavanje i integracija sa nacionalnim sistemom e-faktura.",
       "performanceTag": "Web performanse",
@@ -113,6 +112,8 @@
       "returnProjects": "Nazad na projekte",
       "insideIndex": "01 / Unutar proizvoda",
       "insideTitle": "Dizajnirano za<br><em>stvarnu upotrebu.</em>",
+      "screensIndex": "Mobilno iskustvo",
+      "screensTitle": "Još sadržaja<br><em>iz aplikacije.</em>",
       "thinkingIndex": "02 / Način razmišljanja",
       "thinkingTitle": "Od problema<br>do <em>softvera koji radi.</em>",
       "thinkingBody": "Prezentacija se zasniva na repozitorijumu, njegovoj dokumentaciji i lokalno pokrenutoj aplikaciji.",
@@ -423,6 +424,47 @@
           { "alt": "BatoDetailing katalog sa šest paketa za negu automobila", "caption": "Katalog usluga" },
           { "alt": "BatoDetailing premium početna strana za negu automobila", "caption": "Brend iskustvo" },
           { "alt": "BatoDetailing forma za registraciju kupca", "caption": "Registracija kupca" }
+        ]
+      },
+      {
+        "id": "radarme",
+        "subtitle": "Aplikacija za bezbednost u saobraćaju",
+        "category": "Mobilna aplikacija",
+        "description": "Flutter aplikacija za Android i iOS koja koristi GPS lokaciju uživo da upozori vozače pre kamera za kontrolu saobraćaja, radarskih tačaka i zona prosečne brzine u Crnoj Gori.",
+        "contribution": "Napravio sam Flutter aplikaciju, interfejse mape i liste radara, logiku upozorenja na blizinu, zone prosečne brzine i konfigurabilno praćenje u pozadini opisano u repozitorijumu.",
+        "problem": "Vozačima su potrebna korisna upozorenja bez gledanja u drugi ekran, uključujući rad aplikacije u pozadini i upotrebu bez internet veze.",
+        "solution": "GPS iskustvo na telefonu koje učitava 88 lokacija kontrole, procenjuje blizinu i koridore prosečne brzine i nudi konfigurabilna zvučna, vibraciona i notifikaciona upozorenja.",
+        "features": [
+          "Mapa u realnom vremenu sa radarima i kamerama",
+          "Pretraživa lista svih 88 lokacija kontrole",
+          "Konfigurabilni radijus upozorenja od 300 metara",
+          "Zvučni, vibracioni i notifikacioni alarmi",
+          "Dvadeset sedam A-B zona prosečne brzine",
+          "Praćenje lokacije u prvom planu i pozadini",
+          "Filtriranje po tipu radara, gradu i statusu",
+          "Rad bez mreže uz ugrađene podatke o radarima",
+          "Svetla, tamna i sistemska tema"
+        ],
+        "technicalDetails": [
+          "Prefilter ograničavajućeg okvira uklanja udaljene lokacije pre izračunavanja razdaljine.",
+          "Bafer histereze od 100 metara sprečava ponavljanje alarma usled GPS odstupanja.",
+          "Izolati za prvi plan i pozadinu dele isti mehanizam za proveru blizine.",
+          "Sesije prosečne brzine sabiraju pređenu razdaljinu i mogu isteći nakon jednog sata.",
+          "Firestore je opcion; aplikacija koristi ugrađeni JSON skup podataka kao rezervu."
+        ],
+        "stats": [
+          { "value": "88", "label": "Lokacija kontrole" },
+          { "value": "27", "label": "Zona prosečne brzine" },
+          { "value": "300 m", "label": "Podrazumevani radijus" }
+        ],
+        "screens": [
+          { "alt": "RadarME mapa sa lokacijama kontrole oko Podgorice", "caption": "Mapa radara uživo" },
+          { "alt": "RadarME lista lokacija kontrole sa pretragom i filterima", "caption": "Direktorijum radara" },
+          { "alt": "RadarME ekran sa zonama prosečne brzine", "caption": "Zone prosečne brzine" },
+          { "alt": "RadarME podešavanja alarma i obaveštenja", "caption": "Podešavanja alarma" },
+          { "alt": "RadarME podešavanja prikaza mape i zona brzine", "caption": "Kontrole prikaza" },
+          { "alt": "RadarME podešavanja praćenja u pozadini i podaci o aplikaciji", "caption": "Praćenje u pozadini" },
+          { "alt": "RadarME početni ekran", "caption": "Početno iskustvo" }
         ]
       },
       {

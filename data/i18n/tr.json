@@ -71,7 +71,6 @@
     "more": {
       "index": "Diğer çalışmalar",
       "title": "Daha çok problem,<br>daha çok öğrenme.",
-      "radar": "Karadağ'daki 88 trafik denetim noktası için Android ve iOS GPS uyarıları.",
       "erpTag": "ERP / Profesyonel çalışma",
       "erp": "Destek, özellik geliştirme, KDV raporlaması ve ulusal e-fatura entegrasyonu çalışmaları.",
       "performanceTag": "Web performansı",
@@ -113,6 +112,8 @@
       "returnProjects": "Projelere dön",
       "insideIndex": "01 / Ürünün içinde",
       "insideTitle": "Gerçek kullanım<br><em>için tasarlandı.</em>",
+      "screensIndex": "Mobil deneyim",
+      "screensTitle": "Uygulamadan<br><em>daha fazlası.</em>",
       "thinkingIndex": "02 / Yaklaşım",
       "thinkingTitle": "Problemden<br><em>çalışan yazılıma.</em>",
       "thinkingBody": "Bu sunum; depo, belgeler ve yerel olarak çalıştırılan uygulama temel alınarak hazırlandı.",
@@ -423,6 +424,47 @@
           { "alt": "Altı araç bakım hizmeti içeren BatoDetailing kataloğu", "caption": "Hizmet kataloğu" },
           { "alt": "BatoDetailing premium araç bakım ana sayfası", "caption": "Marka deneyimi" },
           { "alt": "BatoDetailing müşteri kayıt formu", "caption": "Müşteri kaydı" }
+        ]
+      },
+      {
+        "id": "radarme",
+        "subtitle": "Trafik güvenliği uygulaması",
+        "category": "Mobil uygulama",
+        "description": "Karadağ'daki trafik denetim kameralarına, radar noktalarına ve ortalama hız bölgelerine yaklaşırken sürücüleri canlı GPS konumuyla uyaran Android ve iOS Flutter uygulaması.",
+        "contribution": "Depoda belgelenen Flutter uygulamasını, harita ve radar listesi arayüzlerini, yakınlık alarm mantığını, ortalama hız bölgelerini ve yapılandırılabilir arka plan takibini geliştirdim.",
+        "problem": "Sürücüler başka bir ekranı izlemek zorunda kalmadan, uygulama arka planda çalışırken veya cihaz çevrimdışıyken de kullanışlı uyarılar almalıdır.",
+        "solution": "88 denetim noktasını yükleyen, yakınlık ve ortalama hız koridorlarını değerlendiren, yapılandırılabilir ses, titreşim ve bildirim uyarıları sunan GPS tabanlı bir mobil deneyim.",
+        "features": [
+          "Radar ve kamera işaretli gerçek zamanlı harita",
+          "88 denetim noktasının aranabilir listesi",
+          "Yapılandırılabilir 300 metrelik yakınlık uyarı yarıçapı",
+          "Ses, titreşim ve bildirim alarmları",
+          "Yirmi yedi A-B ortalama hız bölgesi",
+          "Ön planda ve arka planda konum takibi",
+          "Radar türü, şehir ve duruma göre filtreleme",
+          "Pakete dahil radar verisine çevrimdışı geçiş",
+          "Açık, koyu ve sistem görünüm temaları"
+        ],
+        "technicalDetails": [
+          "Sınırlayıcı kutu ön filtresi, mesafe hesaplarından önce uzak konumları eler.",
+          "100 metrelik histerezis tamponu GPS sapmasının tekrarlanan alarmlar üretmesini önler.",
+          "Ön plan ve arka plan izolatları aynı yakınlık motorunu paylaşır.",
+          "Ortalama hız oturumları kat edilen mesafeyi toplar ve bir saat sonra sona erebilir.",
+          "Firestore isteğe bağlıdır; uygulama pakete dahil JSON veri kümesine geri döner."
+        ],
+        "stats": [
+          { "value": "88", "label": "Denetim noktası" },
+          { "value": "27", "label": "Ortalama hız bölgesi" },
+          { "value": "300 m", "label": "Varsayılan uyarı yarıçapı" }
+        ],
+        "screens": [
+          { "alt": "Podgorica çevresindeki denetim noktalarını gösteren RadarME haritası", "caption": "Canlı radar haritası" },
+          { "alt": "Arama ve filtrelerle RadarME denetim noktası listesi", "caption": "Radar dizini" },
+          { "alt": "RadarME ortalama hız bölgeleri ekranı", "caption": "Ortalama hız bölgeleri" },
+          { "alt": "RadarME alarm ve bildirim ayarları", "caption": "Alarm tercihleri" },
+          { "alt": "RadarME harita görünümü ve hız bölgesi ayarları", "caption": "Görünüm kontrolleri" },
+          { "alt": "RadarME arka plan takibi ayarları ve uygulama bilgileri", "caption": "Arka plan takibi" },
+          { "alt": "RadarME açılış ekranı", "caption": "Açılış deneyimi" }
         ]
       },
       {
