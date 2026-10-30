@@ -436,8 +436,6 @@ async function init() {
     document.documentElement.lang = locale.htmlLang;
     document.title = locale.meta.title;
     document.querySelector('meta[name="description"]').setAttribute('content', locale.meta.description);
-    document.querySelector('meta[property="og:title"]').setAttribute('content', locale.meta.title);
-    document.querySelector('meta[property="og:description"]').setAttribute('content', locale.meta.description);
     applyStaticTranslations(locale.ui);
     setupLanguageSelector(language, locale.ui);
 
