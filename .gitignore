@@ -1,0 +1,75 @@
+# Private project inputs and local planning documents
+/prompt.md
+/folderStructure.md
+/Edvin_Tahirovic_CV_.pdf
+
+# Local repository investigation, dependencies and quality-assurance output
+/tmp/
+/temp/
+node_modules/
+vendor/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Local databases and runtime artifacts
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.pid
+*.seed
+storage/logs/*
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+.phpunit.result.cache
+.phpunit.cache/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build output and compressed/backup files
+dist/
+build/
+*.map
+*.zip
+*.7z
+*.rar
+*.bak
+*.backup
+*.tmp
+*~
+
+# Operating-system metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor and tool metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.code-workspace
+
+# Local agent and cloud-tool metadata
+.agents/
+.codex/
+.aws/

@@ -1,0 +1,53 @@
+{
+  "name": "Edvin Tahirović",
+  "shortName": "Edvin",
+  "initials": "ET",
+  "title": "Software Developer",
+  "specialism": "PHP & Laravel",
+  "location": "Podgorica, Montenegro",
+  "availability": "Open to software development opportunities",
+  "email": "edwwinthr@gmail.com",
+  "github": "https://github.com/edwwinthr-del",
+  "cv": "assets/cv/cv.pdf",
+  "hero": {
+    "eyebrow": "Software developer / Montenegro",
+    "headline": "I build useful software that makes work feel lighter.",
+    "intro": "PHP and Laravel developer with experience supporting ERP users and building business software. I care about clear systems, practical interfaces and code that holds up in real use."
+  },
+  "about": {
+    "lead": "I turn complex business processes into software people can actually use.",
+    "body": [
+      "My foundation is in Management Information Systems, with hands-on experience in a graduate PHP development programme at Data Design. I started close to users, learning how incidents and requests affect day-to-day work, then moved into feature development for the Tiramisu ERP.",
+      "Since then I have worked across the stack: PHP and PostgreSQL on the backend, JavaScript and modern UI tooling on the frontend, with testing, reviews and documentation as part of the process.",
+      "I am especially interested in finance and operations systems, e-commerce, developer tooling and practical AI workflows that keep people in control."
+    ],
+    "principles": [
+      {
+        "title": "Clarity first",
+        "text": "Model the workflow before adding abstraction. Make the important state visible."
+      },
+      {
+        "title": "Build for trust",
+        "text": "Validate input, respect permissions and make consequential actions auditable."
+      },
+      {
+        "title": "Keep improving",
+        "text": "Use tests, feedback and measurable performance work to make each iteration stronger."
+      }
+    ]
+  },
+  "quickFacts": [
+    {
+      "value": "2024",
+      "label": "B.Sc. in Management Information Systems"
+    },
+    {
+      "value": "ERP",
+      "label": "Business software and user support"
+    },
+    {
+      "value": "3",
+      "label": "Languages: Montenegrin, English, Turkish"
+    }
+  ]
+}

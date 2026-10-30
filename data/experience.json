@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "company": "Data Design d.o.o.",
+      "location": "Podgorica, Montenegro",
+      "title": "PHP Developer",
+      "programme": "Graduate Professional Training Programme",
+      "period": "Jan 2026 - Oct 2026",
+      "summary": "Supported and extended a business ERP while working alongside senior developers, business analysts and end users.",
+      "achievements": [
+        "Developed Tiramisu ERP features with PHP, PostgreSQL and JavaScript from business analyst requirements and refined them through senior code review.",
+        "Worked on VAT and tax reporting and the SEF project integrating the ERP with Serbia's national e-invoicing system.",
+        "Improved an ERP-connected webshop's performance and accessibility with asset-loading changes, WebP images and ARIA attributes.",
+        "Handled ERP support requests, explained product behaviour and resolved issues encountered in daily work.",
+        "Debugged PHP with Xdebug, troubleshot Apache on Ubuntu, wrote SQL joins and aggregations, and applied validation, XSS and CSRF protections."
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "PostgreSQL",
+        "JavaScript",
+        "Jira",
+        "Git"
+      ]
+    },
+    {
+      "company": "Global Mine d.o.o.",
+      "location": "Nikšić, Montenegro",
+      "title": "Administrative Officer, Finance",
+      "period": "Aug 2024 - Dec 2025",
+      "summary": "Maintained financial records and supported cross-language business communication before moving into software development.",
+      "achievements": [
+        "Maintained payment, invoice and receivables records in Excel and Word.",
+        "Handled confidential financial data responsibly.",
+        "Provided Turkish translation as part of the finance team's day-to-day work."
+      ],
+      "technologies": [
+        "Excel",
+        "Word",
+        "Finance operations"
+      ]
+    }
+  ]
+}

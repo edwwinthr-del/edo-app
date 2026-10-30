@@ -1,0 +1,463 @@
+{
+  "code": "tr",
+  "htmlLang": "tr",
+  "meta": {
+    "title": "Edvin Tahirović — Yazılım Geliştirici",
+    "description": "Edvin Tahirović; PHP, Laravel, iş sistemleri ve pratik yapay zekâ iş akışlarına odaklanan, Karadağ merkezli bir yazılım geliştiricisidir."
+  },
+  "ui": {
+    "skipToContent": "İçeriğe geç",
+    "availability": "İş fırsatlarına açık",
+    "language": {
+      "select": "Dil seçin"
+    },
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımda",
+      "skills": "Yetenekler",
+      "experience": "Deneyim",
+      "projects": "Projeler",
+      "contact": "İletişim",
+      "open": "Menüyü aç",
+      "mobile": "Mobil menü",
+      "main": "Ana navigasyon"
+    },
+    "hero": {
+      "lines": [
+        "İşi kolaylaştıran",
+        "faydalı yazılımlar",
+        "geliştiriyorum."
+      ],
+      "typewriter": ["PHP", "Laravel", "PostgreSQL", "TypeScript", "Pratik yapay zekâ"],
+      "explore": "Çalışmalarımı keşfet",
+      "viewCv": "CV'yi görüntüle",
+      "basedIn": "Podgorica'da yaşıyor",
+      "laravelCaption": "PHP · API'ler · sistemler",
+      "aiTitle": "Kontrolde insan",
+      "aiSubtitle": "Faydalı, veriye dayalı yapay zekâ",
+      "scroll": "Keşfetmek için kaydır",
+      "adminAlt": "AdminisMine finans panosu",
+      "commerceAlt": "Mora Mağazası e-ticaret sitesi",
+      "ebookAlt": "EbookEcommerce kataloğu"
+    },
+    "about": {
+      "index": "02 / Hakkımda",
+      "title": "İş dünyasını anlayan<br><em>bir geliştirici.</em>",
+      "glance": "Kısa bakış",
+      "readExperience": "Deneyimlerimi oku"
+    },
+    "skills": {
+      "index": "03 / Yetenekler",
+      "title": "Üretmek için<br><em>kullandığım araçlar.</em>",
+      "intro": "Yüzde çubukları yok. Yalnızca işin içinde gerçekten yer alan teknolojiler, yaklaşımlar ve diller.",
+      "spoken": "Konuşulan diller"
+    },
+    "experience": {
+      "index": "04 / Deneyim",
+      "title": "İşin içinde<br><em>öğrenmek.</em>",
+      "intro": "Finans operasyonlarından ERP geliştirmeye uzanan her rol, özelliğin ötesine bakmayı ve çevresindeki iş akışını anlamayı öğretti.",
+      "technologiesLabel": "Teknolojiler"
+    },
+    "education": {
+      "index": "Akademik temel",
+      "courseworkLabel": "Dersler"
+    },
+    "projects": {
+      "index": "05 / Seçili projeler",
+      "title": "Seçili<br><em>Projeler</em>",
+      "intro": "Geliştirdiğim uygulamaları ve yazılım çözümlerini keşfedin.",
+      "openCase": "Projeyi incele"
+    },
+    "more": {
+      "index": "Diğer çalışmalar",
+      "title": "Daha çok problem,<br>daha çok öğrenme.",
+      "radar": "Karadağ'daki 88 trafik denetim noktası için Android ve iOS GPS uyarıları.",
+      "erpTag": "ERP / Profesyonel çalışma",
+      "erp": "Destek, özellik geliştirme, KDV raporlaması ve ulusal e-fatura entegrasyonu çalışmaları.",
+      "performanceTag": "Web performansı",
+      "performanceTitle": "Erişilebilir e-ticaret",
+      "performance": "ERP bağlantılı bir web mağazası için varlık yükleme, WebP teslimatı ve ARIA iyileştirmeleri."
+    },
+    "contact": {
+      "eyebrow": "Faydalı bir şey geliştirelim",
+      "title": "Çözmeye değer<br>bir probleminiz <em>var mı?</em>",
+      "body": "Düşünceli mühendisliğin ve gerçek dünya etkisinin önemli olduğu yazılım geliştirme fırsatlarına açığım.",
+      "location": "Podgorica, Karadağ",
+      "languages": "Karadağca · İngilizce · Türkçe"
+    },
+    "footer": {
+      "role": "Yazılım Geliştirici",
+      "top": "Yukarı dön"
+    },
+    "common": {
+      "viewRepository": "Depoyu görüntüle",
+      "projectPreviews": "Seçili projelerden arayüz önizlemeleri",
+      "businessSystems": "İş sistemleri"
+    },
+    "project": {
+      "skip": "Projeye geç",
+      "loading": "Proje sunumu yükleniyor…",
+      "allProjects": "Tüm projeler",
+      "viewSource": "Kaynak kodu",
+      "backProjects": "Projelere dön",
+      "exploreBuild": "Projeyi keşfet",
+      "viewRepository": "Depoyu görüntüle",
+      "liveDemo": "Canlı demo",
+      "openRepository": "GitHub deposunu aç",
+      "backToProjects": "Projelere dön",
+      "interfacePreview": "Arayüz önizlemesi",
+      "applicationReveal": "Uygulama sunumu",
+      "projectNavigation": "Proje navigasyonu",
+      "errorIndex": "Proje verisine ulaşılamıyor",
+      "errorTitle": "Sunum<br><em>yüklenemedi.</em>",
+      "returnProjects": "Projelere dön",
+      "insideIndex": "01 / Ürünün içinde",
+      "insideTitle": "Gerçek kullanım<br><em>için tasarlandı.</em>",
+      "thinkingIndex": "02 / Yaklaşım",
+      "thinkingTitle": "Problemden<br><em>çalışan yazılıma.</em>",
+      "thinkingBody": "Bu sunum; depo, belgeler ve yerel olarak çalıştırılan uygulama temel alınarak hazırlandı.",
+      "problemIndex": "01 / Problem",
+      "problemTitle": "Çözülmesi gereken",
+      "approachIndex": "02 / Yaklaşım",
+      "approachTitle": "Çalışma modeli",
+      "contributionIndex": "03 / Katkım",
+      "contributionTitle": "Ne geliştirdim",
+      "engineeringIndex": "03 / Mühendislik notları",
+      "engineeringTitle": "Güven kazanan<br><em>detaylar.</em>",
+      "capabilitiesIndex": "Temel yetenekler",
+      "capabilitiesTitle": "Faydalı olmak için tasarlandı",
+      "technicalIndex": "Teknik kararlar",
+      "technicalTitle": "Uzun ömürlü olmak için tasarlandı",
+      "stackIndex": "04 / Teknoloji yığını",
+      "stackTitle": "Deneyimin<br><em>arkasındaki araçlar.</em>",
+      "nextProject": "Sıradaki proje",
+      "revealPrefix": "Arayüz yalnızca yüzey.",
+      "revealMiddle": "İşin parçaları böyle bir araya geliyor:",
+      "featureHeadings": [
+        {
+          "lead": "Gerçek iş akışları",
+          "accent": "etrafında geliştirildi."
+        },
+        {
+          "lead": "Faydalı detaylar,",
+          "accent": "görünür hâle geldi."
+        },
+        {
+          "lead": "Tasarımıyla",
+          "accent": "güvenilir."
+        }
+      ]
+    }
+  },
+  "content": {
+    "profile": {
+      "hero": {
+        "eyebrow": "Yazılım geliştirici / Karadağ",
+        "intro": "Temiz sistemler, pratik arayüzler ve gerçek kullanımda sağlam kalan kod üzerine odaklanan PHP ve Laravel geliştiricisiyim."
+      },
+      "about": {
+        "lead": "Karmaşık iş süreçlerini insanların gerçekten kullanabileceği yazılımlara dönüştürüyorum.",
+        "body": [
+          "Temelim Yönetim Bilişim Sistemleri alanında. Data Design'daki yüksek lisans mezunu PHP geliştirme programında önce kullanıcılarla yakın çalışarak olayların ve taleplerin günlük işleri nasıl etkilediğini öğrendim, ardından Tiramisu ERP için özellik geliştirmeye geçtim.",
+          "PHP ve PostgreSQL ile arka uç, JavaScript ve modern arayüz araçlarıyla ön uç geliştirdim. Test, kod incelemesi ve dokümantasyonu sürecin doğal bir parçası olarak ele alıyorum.",
+          "Özellikle finans ve operasyon sistemleri, e-ticaret, geliştirici araçları ve insan kontrolünü koruyan pratik yapay zekâ iş akışlarına ilgi duyuyorum."
+        ],
+        "principles": [
+          {
+            "title": "Önce açıklık",
+            "text": "Soyutlama eklemeden önce iş akışını modelle. Önemli durumu görünür kıl."
+          },
+          {
+            "title": "Güven için geliştir",
+            "text": "Girdileri doğrula, izinlere saygı göster ve önemli işlemleri denetlenebilir tut."
+          },
+          {
+            "title": "Sürekli geliştir",
+            "text": "Testler, geri bildirim ve ölçülebilir performans çalışmalarıyla her sürümü güçlendir."
+          }
+        ]
+      },
+      "quickFacts": [
+        {
+          "value": "2024",
+          "label": "Yönetim Bilişim Sistemleri lisansı"
+        },
+        {
+          "value": "ERP",
+          "label": "İş yazılımları ve kullanıcı desteği"
+        },
+        {
+          "value": "3",
+          "label": "Diller: Karadağca, İngilizce, Türkçe"
+        }
+      ]
+    },
+    "skills": {
+      "categories": [
+        {
+          "name": "Arka uç",
+          "kicker": "Sistemler",
+          "skills": ["PHP 8", "Laravel", "Eloquent", "REST API'leri", "Kuyruklar", "Olaylar", "Sanctum", "OOP"]
+        },
+        {
+          "name": "Veri",
+          "kicker": "Kalıcı veri",
+          "skills": ["PostgreSQL", "SQL", "Redis", "Veri doğrulama", "Veritabanı geçişleri"]
+        },
+        {
+          "name": "Ön uç ve Mobil",
+          "kicker": "Arayüz",
+          "skills": ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Alpine.js", "Flutter", "Dart"]
+        },
+        {
+          "name": "Yapay zekâ ve Otomasyon",
+          "kicker": "İş akışı",
+          "skills": ["OpenAI API", "Anthropic API", "Yapılandırılmış çıktılar", "İstem mühendisliği", "n8n"]
+        },
+        {
+          "name": "Kalite ve Teslimat",
+          "kicker": "Güvenilirlik",
+          "skills": ["PHPUnit", "Playwright", "Larastan", "GitHub Actions", "Docker", "Git", "Linux", "Apache", "Nginx"]
+        },
+        {
+          "name": "Araçlar",
+          "kicker": "Her gün",
+          "skills": ["Git", "Jira", "Xdebug", "Composer", "npm", "WordPress"]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Karadağca",
+          "level": "Ana dil"
+        },
+        {
+          "name": "İngilizce",
+          "level": "İleri"
+        },
+        {
+          "name": "Türkçe",
+          "level": "İleri"
+        }
+      ]
+    },
+    "experience": {
+      "jobs": [
+        {
+          "company": "Data Design d.o.o.",
+          "location": "Podgorica, Karadağ",
+          "title": "PHP Geliştirici",
+          "programme": "Yüksek Lisans Mezunu Profesyonel Eğitim Programı",
+          "period": "Oca 2026 - Eki 2026",
+          "summary": "Kıdemli geliştiriciler, iş analistleri ve son kullanıcılarla birlikte bir iş ERP'sini destekledim ve geliştirdim.",
+          "achievements": [
+            "İş analistlerinin gereksinimlerinden yararlanarak PHP, PostgreSQL ve JavaScript ile Tiramisu ERP özellikleri geliştirdim ve kıdemli kod incelemesinden geçirdim.",
+            "KDV ve vergi raporlama ile ERP'yi Sırbistan'ın ulusal e-fatura sistemine bağlayan SEF projesinde çalıştım.",
+            "Varlık yükleme değişiklikleri, WebP görseller ve ARIA öznitelikleriyle ERP bağlantılı bir web mağazasının performansını ve erişilebilirliğini artırdım.",
+            "ERP destek taleplerini ele aldım, özellikleri açıkladım ve günlük işlerde karşılaşılan sorunları çözdüm.",
+            "PHP'yi Xdebug ile hata ayıkladım, Ubuntu üzerinde Apache sorunlarını giderdim; SQL birleştirmeleri ve toplamaları yazdım, doğrulama, XSS ve CSRF korumaları uyguladım."
+          ],
+          "technologies": ["PHP", "Laravel", "PostgreSQL", "JavaScript", "Jira", "Git"]
+        },
+        {
+          "company": "Global Mine d.o.o.",
+          "location": "Nikšić, Karadağ",
+          "title": "İdari Görevli, Finans",
+          "period": "Ağu 2024 - Ara 2025",
+          "summary": "Yazılım geliştirmeye geçmeden önce finansal kayıtları tuttum ve çok dilli iş iletişimini destekledim.",
+          "achievements": [
+            "Ödeme, fatura ve alacak kayıtlarını Excel ve Word üzerinde tuttum.",
+            "Gizli finansal verileri sorumlulukla yönettim.",
+            "Finans ekibinin günlük çalışmalarında Türkçe çeviri desteği sağladım."
+          ],
+          "technologies": ["Excel", "Word", "Finans operasyonları"]
+        }
+      ]
+    },
+    "education": {
+      "degree": {
+        "institution": "Bartın Üniversitesi",
+        "location": "Bartın, Türkiye",
+        "qualification": "Yönetim Bilişim Sistemleri Lisans Derecesi",
+        "qualificationLead": "Yönetim Bilişim Sistemleri",
+        "qualificationAccent": "Lisans Derecesi",
+        "year": "2024",
+        "summary": "Kurumların nasıl çalıştığını, yazılımın nasıl tasarlandığını, geliştirildiğini ve kullanıldığını birbirine bağlayan yönetim ve teknoloji derecesi.",
+        "coursework": ["WordPress", "JavaScript", "C#", "Delphi", "Siber güvenlik temelleri"]
+      }
+    },
+    "projects": [
+      {
+        "id": "adminismine",
+        "subtitle": "Finans ve operasyon sistemi",
+        "category": "İş sistemleri",
+        "description": "Ödenecek hesapları, alacakları, bordroyu, üretimi, izinleri, raporlamayı ve yapay zekâ asistanını tek ve denetlenebilir bir sistemde birleştiren kapsamlı finans ve operasyon platformu.",
+        "contribution": "Proje belgelerinde tanımlanan finans, bordro, izinler, raporlama ve çok dilli yapay zekâ asistanı modüllerini geliştirdim.",
+        "problem": "Finansal ve operasyonel kayıtların elektronik tablolara dağılması bakiyelerin güvenilirliğini, izinlerin yönetilmesini ve değişikliklerin denetlenmesini zorlaştırır.",
+        "solution": "Finansal bakiyelerin kaynak kayıtlardan hesaplandığı, önemli işlemlerin denetlendiği ve hassas değişikliklerin ayrıntılı izinlerle korunduğu modüler bir web platformu.",
+        "features": [
+          "Ödenecek hesaplar, alacaklar, banka ve kasa iş akışları",
+          "Bordro, devam ve günlük kazanç kayıtları",
+          "Döviz kurları ve gerekçeleriyle çoklu para birimi kayıtları",
+          "On dokuz Excel ve PDF raporu",
+          "Kayıtları dilden bağımsız tutan üç dilli arayüz",
+          "Sırpça, Türkçe ve İngilizce yapay zekâ asistanı",
+          "Yapılarını doğrulama ve açık kullanıcı onayı kullanan yapay zekâ önerileri",
+          "Denetim kaydı ile rol ve ayrıntılı izinler"
+        ],
+        "technicalDetails": [
+          "Bakiyeler düzenlenebilir kalan tutarlar yerine ödeme ve borç kayıtlarından hesaplanır.",
+          "Ortak polimorfik ödeme tablosu faturaları, kira bedellerini, kredileri ve banka hareketlerini birbirine bağlar.",
+          "Okumalar önbelleğe alınır ve yazmalar yüklü kaynakları yeniler; böylece gösterge paneli güncel kalır.",
+          "Dil modeli değişiklik önerisi hazırlayabilir ancak insan onayı olmadan kaydı kalıcı hâle getiremez."
+        ],
+        "stats": [
+          { "value": "19", "label": "Excel / PDF raporu" },
+          { "value": "3", "label": "Arayüz dili" },
+          { "value": "100%", "label": "İşlem denetim kaydı" }
+        ],
+        "screens": [
+          { "alt": "Koyu temadaki AdminisMine finans panosu", "caption": "Operasyon genel bakışı" },
+          { "alt": "Excel ve PDF dışa aktarımlı AdminisMine raporlama alanı", "caption": "Yapılandırılabilir raporlama" },
+          { "alt": "Açık temadaki AdminisMine finans panosu", "caption": "Açık ve koyu temalar" }
+        ]
+      },
+      {
+        "id": "mn-ecommerce",
+        "subtitle": "Mora Mağazası",
+        "category": "E-ticaret",
+        "description": "Özenli bir mağaza vitrini, Laravel REST API, Filament yönetim paneli ve PostgreSQL işlem yönetimini bir araya getiren tam kapsamlı e-ticaret MVP'si.",
+        "contribution": "Depoda belgelenen mağaza vitrinini, REST API'yi, yönetim iş akışlarını ve otomatik test kapsamını geliştirdim.",
+        "problem": "Çevrim içi mağaza; ürün, stok, sepet ve ödeme durumunu doğru tutarken mükerrer siparişleri ve istemci tarafında fiyat değiştirilmesini önlemek zorundadır.",
+        "solution": "Fiyat ve stokların PostgreSQL işlemleri içinde doğrulandığı, ödeme tekrarlarının idempotent olduğu ve yönetim deneyiminin müşteri vitrininden ayrıldığı sunucu merkezli bir ticaret modeli.",
+        "features": [
+          "Kategoriler, arama, sıralama ve varyantlarla ürün kataloğu",
+          "Kalıcı misafir sepeti ve müşteri kimlik doğrulaması",
+          "Sunucuda hesaplanan fiyatlar, kargo ve kupon indirimleri",
+          "Kapıda ödeme ve banka havalesiyle ödeme",
+          "Mükerrer siparişi önleyen idempotent ödeme tekrarları",
+          "Filament ile katalog, sipariş, müşteri ve tedarikçi yönetimi",
+          "Gelir ve brüt kâr raporlaması",
+          "Site haritası, meta veriler ve mobil uyumlu politika sayfaları"
+        ],
+        "technicalDetails": [
+          "Para değerleri kayan nokta hatalarını önlemek için tam sayı EUR kuruşu olarak tutulur.",
+          "PostgreSQL kilitleme mekanizması ödeme sırasında stok ve kupon sınırlarını korur.",
+          "Tarayıcı ve arka uç testleri masaüstü, mobil, eşzamanlılık ve tekrarlanan sipariş akışlarını kapsar.",
+          "Fiyatın sahibi API'dir; mağaza vitrini yalnızca ürün kimliklerini ve adetleri gönderir."
+        ],
+        "stats": [
+          { "value": "65", "label": "Otomatik test" },
+          { "value": "8", "label": "Demo ürün" },
+          { "value": "2", "label": "Ödeme yöntemi" }
+        ],
+        "screens": [
+          { "alt": "Editoryal ürün fotoğrafıyla Mora Mağazası ana sayfası", "caption": "Editoryal vitrin" },
+          { "alt": "Kablosuz kulaklık için Mora Mağazası ürün sayfası", "caption": "Ürün yapılandırması" }
+        ]
+      },
+      {
+        "id": "ebook-commerce",
+        "subtitle": "Dijital kitap mağazası",
+        "category": "Ticaret / içerik",
+        "description": "Katalogda gezinme, Stripe Checkout, güvenli dijital teslimat ve kitap yayınlama yönetimi içeren Laravel ve React kitap mağazası.",
+        "contribution": "Depoda belgelenen mağaza vitrinini, özel kütüphaneyi, Stripe ödeme akışını ve yönetim panelini geliştirdim.",
+        "problem": "Dijital ticarette iyi bir gezinme deneyimi ile ücretli dosyalar ve sipariş durumu etrafındaki sıkı erişim kontrolü birbirinden ayrılmalıdır.",
+        "solution": "Ödeme fiyatlarının veritabanından geldiği ve satın alınan dosyalara erişimin yalnızca doğrulanmış Stripe webhook'undan sonra verildiği sunucu taraflı bir uygulama.",
+        "features": [
+          "Aranabilir ve filtrelenebilir kitap kataloğu",
+          "Yazar ve format bilgileriyle kitap detay sayfaları",
+          "Stripe Checkout satın alma akışı",
+          "Doğrulanmış ödeme webhook işleme",
+          "Özel müşteri kütüphanesi ve korumalı indirmeler",
+          "Kitap, sipariş ve gelir yönetim paneli",
+          "Satın alma anındaki sipariş fiyatı kayıtları",
+          "Geliştirme için hazırlanmış örnek katalog"
+        ],
+        "technicalDetails": [
+          "E-kitaplar özel diskte tutulur ve indirmeler sahiplik kontrolünden geçirilir.",
+          "Kütüphane erişimi başarı sayfasından değil doğrulanmış ödeme olayından verilir.",
+          "Sipariş kalemleri ürünün satın alma anındaki fiyatını korur.",
+          "Yönetim rotaları kimlik doğrulaması ve yönetici kapısıyla korunur."
+        ],
+        "stats": [
+          { "value": "20", "label": "Örnek kitap" },
+          { "value": "2", "label": "Mağaza ve yönetim alanı" },
+          { "value": "1", "label": "Doğrulanmış webhook kapısı" }
+        ],
+        "screens": [
+          { "alt": "Renkli kitap kapaklarıyla EbookEcommerce kataloğu", "caption": "Editoryal katalog" },
+          { "alt": "Satın alma işlemli EbookEcommerce kitap detay sayfası", "caption": "Kitap detayı" },
+          { "alt": "Katalog toplamlarını gösteren EbookEcommerce yönetim paneli", "caption": "Yönetim genel bakışı" }
+        ]
+      },
+      {
+        "id": "bato-detailing",
+        "subtitle": "Detaylandırma stüdyosu platformu",
+        "category": "Hizmet işletmesi",
+        "description": "Müşteri hesapları, rol tabanlı erişim ve özenli hizmet sunumuyla premium bir araç bakım stüdyosu için Laravel ve Alpine.js rezervasyon deneyimi.",
+        "contribution": "Depoda belgelenen rezervasyon, hesap, sadakat, fatura ve hizmet sunumu akışlarını geliştirdim.",
+        "problem": "Bir araç bakım stüdyosu markasının özenli sunumunu kaybetmeden rezervasyonları, müşteri iletişimini ve faturalandırmayı yönetebilmelidir.",
+        "solution": "Randevular, araçlar, faturalar ve rol tabanlı erişim için pratik bir Laravel yönetim katmanıyla birleştirilmiş hizmet odaklı web sitesi.",
+        "features": [
+          "Başlangıç fiyatları açık şekilde gösterilen markalı hizmet kataloğu",
+          "Müşteri kaydı ve kimlik doğrulamalı rezervasyon",
+          "Üç seviyeli erişim modeli",
+          "Randevu yorumları ve durum yönetimi",
+          "Kuyruğa alınmış e-posta bildirimleri",
+          "PDF fatura oluşturma",
+          "Sadakat puanları",
+          "Mobil uyumlu iki dilli arayüz"
+        ],
+        "technicalDetails": [
+          "Randevu ve hizmet kayıtları normalleştirilmiş çoktan çoğa ilişki kullanır.",
+          "Politikalar ve roller müşteri, personel ve yönetici yeteneklerini ayırır.",
+          "PDF faturalar randevu ve fiyat verilerinden oluşturulur.",
+          "Arayüz İngilizce ve Sırpça arasında geçişi destekler."
+        ],
+        "stats": [
+          { "value": "3", "label": "Erişim seviyesi" },
+          { "value": "6", "label": "Hizmet paketi" },
+          { "value": "2", "label": "Dil" }
+        ],
+        "screens": [
+          { "alt": "Altı araç bakım hizmeti içeren BatoDetailing kataloğu", "caption": "Hizmet kataloğu" },
+          { "alt": "BatoDetailing premium araç bakım ana sayfası", "caption": "Marka deneyimi" },
+          { "alt": "BatoDetailing müşteri kayıt formu", "caption": "Müşteri kaydı" }
+        ]
+      },
+      {
+        "id": "crypto-ai-report",
+        "subtitle": "Otomatik veri ve yapay zekâ iş akışı",
+        "category": "Otomasyon / Yapay zekâ",
+        "description": "İki herkese açık piyasa API'sini birleştiren, açıklanabilir piyasa sinyalleri hesaplayan ve Telegram'a günlük yapay zekâ raporu gönderen zamanlanmış n8n iş akışı.",
+        "contribution": "Depoda belgelenen iş akışını, veri işleme mantığını, yapay zekâ analiz adımını ve Telegram teslimat akışını geliştirdim.",
+        "problem": "Piyasa özeti, büyük ve gürültülü bir API yanıtını yapay zekâ modelinin tutarlı biçimde değerlendirebileceği kompakt sinyallere dönüştürmelidir.",
+        "solution": "Yaklaşık 2.000 varlığı filtreleyip puanlayan deterministik bir JavaScript ön işleme katmanı; ardından yalnızca hazırlanan anlık görüntüye dayanan kısa bir rapor yazar.",
+        "features": [
+          "Her gün 07:00'de zamanlanmış çalışma",
+          "Paralel Fear & Greed ve CoinPaprika istekleri",
+          "Yaklaşık 2.000 kaydı kompakt anlık görüntüye dönüştürme",
+          "Açıklanabilir risk ve momentum puanlaması",
+          "Piyasa genişliği, hacim ve stablecoin kontrolleri",
+          "Anthropic Claude analizi",
+          "Telegram'a uygun rapor bölümleme",
+          "Yatırım tavsiyesi olmadığına dair açıklama"
+        ],
+        "technicalDetails": [
+          "Likidite eşikleri, sıralamadan önce düşük piyasa değerli ve düşük hacimli varlıkları çıkarır.",
+          "Sarmalanmış, stake edilmiş ve stablecoin tekrarları piyasa görünümünden çıkarılır.",
+          "İstem modeli yalnızca sağlanan anlık görüntüyle sınırlayarak olgusal dayanağı artırır.",
+          "Uzun raporlar satırları bozmadan Telegram'ın 4.096 karakter sınırının altında parçalara ayrılır."
+        ],
+        "stats": [
+          { "value": "2B", "label": "İşlenen piyasa kaydı" },
+          { "value": "2", "label": "Herkese açık veri kaynağı" },
+          { "value": "Günlük", "label": "Otomatik teslimat" }
+        ],
+        "screens": [
+          { "alt": "Crypto Market AI Report için n8n iş akışı grafiği", "caption": "İş akışı grafiği" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "projects": [
+    {
+      "id": "adminismine",
+      "name": "AdminisMine",
+      "subtitle": "Finance & operations system",
+      "category": "Business systems",
+      "year": "2026",
+      "order": 1,
+      "featured": true,
+      "accent": "#e7ff37",
+      "accentSecondary": "#77f6b0",
+      "description": "A full finance and operations platform that brings payables, receivables, payroll, production, permissions, reporting and an AI assistant into one auditable system.",
+      "github": "https://github.com/edwwinthr-del/adminismine",
+      "demo": null,
+      "technologies": [
+        "Laravel 13",
+        "PHP 8.5",
+        "Next.js 16",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "OpenAI API"
+      ],
+      "contribution": "Built the finance, payroll, permissions, reporting and multilingual AI assistant modules described in the project documentation.",
+      "problem": "Finance and operational records spread across spreadsheets make balances hard to trust, permissions hard to govern and changes difficult to audit.",
+      "solution": "A modular web platform where financial balances are calculated from source records, every important action is auditable and sensitive changes are protected by granular permissions.",
+      "features": [
+        "Payables, receivables, bank and cash workflows",
+        "Payroll, attendance and daily earned-pay records",
+        "Multi-currency records with exchange rates and reasons",
+        "Nineteen Excel and PDF reports",
+        "Three-interface-language system with language-neutral stored records",
+        "Serbian, Turkish and English AI assistant",
+        "AI proposals use structured JSON, validation and explicit user confirmation",
+        "Audit log plus roles and granular permissions"
+      ],
+      "technicalDetails": [
+        "Balances are computed from payment and charge records instead of storing editable remaining amounts.",
+        "A shared polymorphic payments table connects invoices, rent charges, loans and bank movements.",
+        "Reads are cached and writes invalidate mounted resources so dashboard figures remain current.",
+        "The LLM can prepare a change, but cannot persist it without a human confirmation step."
+      ],
+      "stats": [
+        {
+          "value": "19",
+          "label": "Excel / PDF reports"
+        },
+        {
+          "value": "3",
+          "label": "Interface languages"
+        },
+        {
+          "value": "100%",
+          "label": "Action audit trail"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/adminismine/hero.webp",
+          "alt": "AdminisMine finance dashboard in dark mode",
+          "caption": "Operational overview",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/adminismine/feature-01.webp",
+          "alt": "AdminisMine reporting workspace with Excel and PDF exports",
+          "caption": "Configurable reporting",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/adminismine/feature-02.webp",
+          "alt": "AdminisMine finance dashboard in light mode",
+          "caption": "Light and dark themes",
+          "aspect": "16 / 10"
+        }
+      ]
+    },
+    {
+      "id": "mn-ecommerce",
+      "name": "MnEcommerce",
+      "subtitle": "Mora Store",
+      "category": "E-commerce",
+      "year": "2026",
+      "order": 2,
+      "featured": true,
+      "accent": "#ef6a57",
+      "accentSecondary": "#f7d477",
+      "description": "A full-stack commerce MVP with a considered storefront, Laravel REST API, Filament administration and PostgreSQL transaction handling.",
+      "github": "https://github.com/edwwinthr-del/MnEcommerce",
+      "demo": null,
+      "technologies": [
+        "Laravel 13",
+        "Next.js 16",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Filament",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "contribution": "Built the storefront, REST API, admin workflows and automated test coverage documented in the repository.",
+      "problem": "An online storefront must keep product, stock, cart and checkout state accurate while preventing duplicate orders and client-side price tampering.",
+      "solution": "A server-owned commerce model where prices and inventory are validated in PostgreSQL transactions, checkout retries are idempotent and the admin experience is separated from the customer storefront.",
+      "features": [
+        "Product catalog with categories, search, sorting and variants",
+        "Persistent guest cart and customer authentication",
+        "Server-calculated prices, shipping and coupon discounts",
+        "Cash-on-delivery and bank-transfer checkout",
+        "Idempotent checkout retries",
+        "Filament catalog, order, customer and supplier administration",
+        "Revenue and gross-profit reporting",
+        "Sitemap, metadata and responsive policy pages"
+      ],
+      "technicalDetails": [
+        "Monetary values use integer EUR cents to avoid floating-point errors.",
+        "PostgreSQL locking protects stock and coupon limits during checkout.",
+        "Browser and backend tests cover desktop, mobile, concurrency and recurring-order flows.",
+        "The API owns pricing and the storefront submits only product identifiers and quantities."
+      ],
+      "stats": [
+        {
+          "value": "65",
+          "label": "Automated tests"
+        },
+        {
+          "value": "8",
+          "label": "Demo products"
+        },
+        {
+          "value": "2",
+          "label": "Checkout methods"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/mn-ecommerce/hero.webp",
+          "alt": "Mora Store ecommerce homepage with editorial product photography",
+          "caption": "Editorial storefront",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/mn-ecommerce/feature-01.webp",
+          "alt": "Mora Store product detail page for wireless headphones",
+          "caption": "Product configuration",
+          "aspect": "16 / 10"
+        }
+      ]
+    },
+    {
+      "id": "ebook-commerce",
+      "name": "EbookEcommerce",
+      "subtitle": "Digital book store",
+      "category": "Commerce / content",
+      "year": "2026",
+      "order": 3,
+      "featured": true,
+      "accent": "#8f62ff",
+      "accentSecondary": "#ff8657",
+      "description": "A Laravel and React bookstore with catalog discovery, Stripe Checkout, secure digital delivery and an administration workflow for publishing books.",
+      "github": "https://github.com/edwwinthr-del/EbookEcommerce",
+      "demo": null,
+      "technologies": [
+        "Laravel 12",
+        "React 19",
+        "Inertia.js",
+        "Tailwind CSS",
+        "Stripe",
+        "SQLite",
+        "Vite"
+      ],
+      "contribution": "Built the storefront, private library, Stripe checkout flow and admin dashboard described in the repository.",
+      "problem": "Digital commerce has to separate a pleasant browsing experience from strict access control around paid files and order state.",
+      "solution": "A server-rendered application where checkout prices come from the database and access to purchased files is granted only after a verified Stripe webhook.",
+      "features": [
+        "Searchable and filterable book catalog",
+        "Book detail pages with author and format details",
+        "Stripe Checkout purchase flow",
+        "Verified checkout webhook processing",
+        "Private customer library and guarded downloads",
+        "Admin book, order and revenue dashboard",
+        "Order price snapshots",
+        "Seeded local catalog for development"
+      ],
+      "technicalDetails": [
+        "E-books live on a private disk and downloads stream through an ownership check.",
+        "Library access is granted by the verified checkout event rather than the success page.",
+        "Order items preserve the product price at purchase time.",
+        "Admin routes are protected by authentication and an admin gate."
+      ],
+      "stats": [
+        {
+          "value": "20",
+          "label": "Seeded books"
+        },
+        {
+          "value": "2",
+          "label": "Store and admin surfaces"
+        },
+        {
+          "value": "1",
+          "label": "Verified webhook gate"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/ebook-commerce/hero.webp",
+          "alt": "EbookEcommerce catalog with colorful book covers",
+          "caption": "Editorial catalog",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/ebook-commerce/feature-01.webp",
+          "alt": "EbookEcommerce book detail page with purchase action",
+          "caption": "Book detail",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/ebook-commerce/feature-02.webp",
+          "alt": "EbookEcommerce admin dashboard showing catalog totals",
+          "caption": "Admin overview",
+          "aspect": "16 / 10"
+        }
+      ]
+    },
+    {
+      "id": "bato-detailing",
+      "name": "BatoDetailing",
+      "subtitle": "Detailing studio platform",
+      "category": "Service business",
+      "year": "2026",
+      "order": 4,
+      "featured": true,
+      "accent": "#ffae2e",
+      "accentSecondary": "#ffcf67",
+      "description": "A Laravel and Alpine.js booking experience for a premium car-detailing studio, with customer accounts, role-based access and branded service presentation.",
+      "github": "https://github.com/edwwinthr-del/BatoDetailing",
+      "demo": null,
+      "technologies": [
+        "Laravel 13",
+        "Alpine.js",
+        "Tailwind CSS",
+        "SQLite",
+        "Vite",
+        "DomPDF"
+      ],
+      "contribution": "Built the booking, account, loyalty, invoice and service presentation flows described in the repository.",
+      "problem": "A detailing studio needs bookings, customer communication and invoicing without losing the polished presentation of the brand.",
+      "solution": "A service-first website paired with a practical Laravel management layer for appointments, vehicles, invoices and role-based access.",
+      "features": [
+        "Branded service catalog with transparent starting prices",
+        "Customer registration and authenticated booking",
+        "Three-level access model",
+        "Appointment comments and status management",
+        "Queued email notifications",
+        "PDF invoice generation",
+        "Loyalty points",
+        "Responsive bilingual interface"
+      ],
+      "technicalDetails": [
+        "Appointment and service records use a normalized many-to-many relationship.",
+        "Policies and roles separate customer, staff and administrator capabilities.",
+        "PDF invoices are generated from appointment and pricing data.",
+        "The interface supports switching between English and Serbian."
+      ],
+      "stats": [
+        {
+          "value": "3",
+          "label": "Access levels"
+        },
+        {
+          "value": "6",
+          "label": "Service packages"
+        },
+        {
+          "value": "2",
+          "label": "Languages"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/bato-detailing/hero.webp",
+          "alt": "BatoDetailing service catalog with six detailing treatments",
+          "caption": "Service catalog",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/bato-detailing/feature-01.webp",
+          "alt": "BatoDetailing premium car care homepage",
+          "caption": "Brand experience",
+          "aspect": "16 / 10"
+        },
+        {
+          "src": "assets/images/projects/bato-detailing/feature-02.webp",
+          "alt": "BatoDetailing customer account registration form",
+          "caption": "Customer onboarding",
+          "aspect": "16 / 10"
+        }
+      ]
+    },
+    {
+      "id": "crypto-ai-report",
+      "name": "Crypto Market AI Report",
+      "subtitle": "Automated data & AI workflow",
+      "category": "Automation / AI",
+      "year": "2026",
+      "order": 5,
+      "featured": true,
+      "accent": "#36e7a2",
+      "accentSecondary": "#ffcc66",
+      "description": "A scheduled n8n workflow that combines two public market APIs, calculates explainable market signals and sends an AI-written daily report to Telegram.",
+      "github": "https://github.com/edwwinthr-del/n8n-crypto-market-ai-report",
+      "demo": null,
+      "technologies": [
+        "n8n",
+        "JavaScript",
+        "Anthropic Claude",
+        "REST APIs",
+        "JSON",
+        "Telegram Bot API"
+      ],
+      "contribution": "Built the workflow, data processing logic, AI analysis step and Telegram delivery flow documented in the repository.",
+      "problem": "A market summary has to transform a large, noisy API response into a compact set of signals that an AI model can reason about consistently.",
+      "solution": "A deterministic JavaScript preprocessing layer filters and scores roughly 2,000 assets before the AI agent writes a concise report grounded only in the prepared snapshot.",
+      "features": [
+        "Daily scheduling at 07:00",
+        "Parallel Fear & Greed and CoinPaprika requests",
+        "Around 2,000 records normalized into a compact snapshot",
+        "Explainable risk and momentum scoring",
+        "Market breadth, volume and stablecoin checks",
+        "Anthropic Claude analysis",
+        "Telegram-safe report chunking",
+        "No financial advice disclaimer"
+      ],
+      "technicalDetails": [
+        "Liquidity thresholds remove low-cap and low-volume assets before ranking.",
+        "Wrapped, staked and stablecoin duplicates are excluded from the market view.",
+        "The prompt restricts the model to the supplied snapshot, improving factual grounding.",
+        "Long reports are split below Telegram's 4,096-character limit without breaking lines."
+      ],
+      "stats": [
+        {
+          "value": "2K",
+          "label": "Market records processed"
+        },
+        {
+          "value": "2",
+          "label": "Public data sources"
+        },
+        {
+          "value": "Daily",
+          "label": "Automated delivery"
+        }
+      ],
+      "screens": [
+        {
+          "src": "assets/images/projects/crypto-ai-report/hero.webp",
+          "alt": "n8n workflow graph for the Crypto Market AI Report",
+          "caption": "Workflow graph",
+          "aspect": "1003 / 366"
+        }
+      ]
+    }
+  ]
+}

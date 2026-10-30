@@ -1,0 +1,16 @@
+{
+  "degree": {
+    "institution": "Bartın University",
+    "location": "Bartın, Türkiye",
+    "qualification": "B.Sc. in Management Information Systems",
+    "year": "2024",
+    "summary": "A management and technology degree that connects how organisations work with how software is designed, built and used.",
+    "coursework": [
+      "WordPress",
+      "JavaScript",
+      "C#",
+      "Delphi",
+      "Cybersecurity fundamentals"
+    ]
+  }
+}

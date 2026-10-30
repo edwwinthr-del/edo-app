@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "kicker": "Systems",
+      "icon": "server",
+      "skills": [
+        "PHP 8",
+        "Laravel",
+        "Eloquent",
+        "REST APIs",
+        "Queues",
+        "Events",
+        "Sanctum",
+        "OOP"
+      ]
+    },
+    {
+      "name": "Data",
+      "kicker": "Persistence",
+      "icon": "database",
+      "skills": [
+        "PostgreSQL",
+        "SQL",
+        "Redis",
+        "Data validation",
+        "Migrations"
+      ]
+    },
+    {
+      "name": "Frontend & Mobile",
+      "kicker": "Interface",
+      "icon": "layout",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Alpine.js",
+        "Flutter",
+        "Dart"
+      ]
+    },
+    {
+      "name": "AI & Automation",
+      "kicker": "Workflow",
+      "icon": "sparkles",
+      "skills": [
+        "OpenAI API",
+        "Anthropic API",
+        "Structured outputs",
+        "Prompt engineering",
+        "n8n"
+      ]
+    },
+    {
+      "name": "Quality & Delivery",
+      "kicker": "Reliability",
+      "icon": "check",
+      "skills": [
+        "PHPUnit",
+        "Playwright",
+        "Larastan",
+        "GitHub Actions",
+        "Docker",
+        "Git",
+        "Linux",
+        "Apache",
+        "Nginx"
+      ]
+    },
+    {
+      "name": "Tools",
+      "kicker": "Everyday",
+      "icon": "tool",
+      "skills": [
+        "Git",
+        "Jira",
+        "Xdebug",
+        "Composer",
+        "npm",
+        "WordPress"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Montenegrin",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Advanced"
+    },
+    {
+      "name": "Turkish",
+      "level": "Advanced"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "code": "en",
+  "htmlLang": "en",
+  "meta": {
+    "title": "Edvin Tahirović — Software Developer",
+    "description": "Edvin Tahirović is a software developer from Montenegro specialising in PHP, Laravel, business systems and practical AI workflows."
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "availability": "Open to work",
+    "language": {
+      "select": "Select language"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact",
+      "open": "Open navigation",
+      "mobile": "Mobile navigation",
+      "main": "Main navigation"
+    },
+    "hero": {
+      "lines": [
+        "I build useful",
+        "software that makes",
+        "work feel lighter."
+      ],
+      "typewriter": ["PHP", "Laravel", "PostgreSQL", "TypeScript", "Practical AI"],
+      "explore": "Explore my work",
+      "viewCv": "View CV",
+      "basedIn": "Based in Podgorica",
+      "laravelCaption": "PHP · APIs · systems",
+      "aiTitle": "Human in the loop",
+      "aiSubtitle": "Useful, grounded AI",
+      "scroll": "Scroll to explore",
+      "adminAlt": "AdminisMine finance dashboard",
+      "commerceAlt": "Mora Store e-commerce website",
+      "ebookAlt": "EbookEcommerce catalog"
+    },
+    "about": {
+      "index": "02 / About",
+      "title": "A developer with a<br><em>business lens.</em>",
+      "glance": "At a glance",
+      "readExperience": "Read my experience"
+    },
+    "skills": {
+      "index": "03 / Capabilities",
+      "title": "Tools I use to<br><em>make things real.</em>",
+      "intro": "No percentage bars. Just the technologies, practices and languages that show up in the work.",
+      "spoken": "Spoken languages"
+    },
+    "experience": {
+      "index": "04 / Experience",
+      "title": "Learning close<br>to <em>the work.</em>",
+      "intro": "From finance operations to ERP development, each role has taught me to look beyond the feature and understand the workflow around it.",
+      "technologiesLabel": "Technologies"
+    },
+    "education": {
+      "index": "Academic foundation",
+      "courseworkLabel": "Coursework"
+    },
+    "projects": {
+      "index": "05 / Selected projects",
+      "title": "Selected<br><em>Projects</em>",
+      "intro": "Explore the applications and software solutions I've built.",
+      "openCase": "Open case study"
+    },
+    "more": {
+      "index": "Also explored",
+      "title": "More problems,<br>more places to learn.",
+      "radar": "Android and iOS GPS alerts for 88 traffic-enforcement locations in Montenegro.",
+      "erpTag": "ERP / Professional work",
+      "erp": "Support, feature development, VAT reporting and national e-invoicing integration work.",
+      "performanceTag": "Web performance",
+      "performanceTitle": "Accessible commerce",
+      "performance": "Asset loading, WebP delivery and ARIA improvements for an ERP-connected webshop."
+    },
+    "contact": {
+      "eyebrow": "Let's build something useful",
+      "title": "Have a problem<br>worth <em>solving?</em>",
+      "body": "I am open to software development opportunities where thoughtful engineering and real-world impact matter.",
+      "location": "Podgorica, Montenegro",
+      "languages": "Montenegrin · English · Turkish"
+    },
+    "footer": {
+      "role": "Software Developer",
+      "top": "Back to top"
+    },
+    "common": {
+      "viewRepository": "View repository",
+      "projectPreviews": "Interface previews from selected projects",
+      "businessSystems": "Business systems"
+    },
+    "project": {
+      "skip": "Skip to project",
+      "loading": "Loading project presentation…",
+      "allProjects": "All projects",
+      "viewSource": "View source",
+      "backProjects": "Back to projects",
+      "exploreBuild": "Explore the build",
+      "viewRepository": "View repository",
+      "liveDemo": "Live demo",
+      "openRepository": "Open GitHub repository",
+      "backToProjects": "Back to projects",
+      "interfacePreview": "Interface preview",
+      "applicationReveal": "Application reveal",
+      "projectNavigation": "Project navigation",
+      "errorIndex": "Project data unavailable",
+      "errorTitle": "The presentation could<br><em>not be loaded.</em>",
+      "returnProjects": "Return to projects",
+      "insideIndex": "01 / Inside the product",
+      "insideTitle": "Designed for<br><em>actual use.</em>",
+      "thinkingIndex": "02 / The thinking",
+      "thinkingTitle": "From problem<br>to <em>working software.</em>",
+      "thinkingBody": "The presentation is based on the repository, its documentation and the locally running application.",
+      "problemIndex": "01 / Problem",
+      "problemTitle": "What needed solving",
+      "approachIndex": "02 / Approach",
+      "approachTitle": "The working model",
+      "contributionIndex": "03 / My contribution",
+      "contributionTitle": "What I built",
+      "engineeringIndex": "03 / Engineering notes",
+      "engineeringTitle": "Details that<br><em>earn trust.</em>",
+      "capabilitiesIndex": "Key capabilities",
+      "capabilitiesTitle": "Built to be useful",
+      "technicalIndex": "Technical decisions",
+      "technicalTitle": "Built to hold up",
+      "stackIndex": "04 / Technology stack",
+      "stackTitle": "The tools behind<br><em>the experience.</em>",
+      "nextProject": "Next project",
+      "revealPrefix": "The interface is only the surface.",
+      "revealMiddle": "This is how the work comes together:",
+      "featureHeadings": [
+        {
+          "lead": "Built around",
+          "accent": "real workflows."
+        },
+        {
+          "lead": "The useful details,",
+          "accent": "made visible."
+        },
+        {
+          "lead": "Reliable by",
+          "accent": "design."
+        }
+      ]
+    }
+  },
+  "content": {}
+}

@@ -1,0 +1,463 @@
+{
+  "code": "sr",
+  "htmlLang": "sr-Latn",
+  "meta": {
+    "title": "Edvin Tahirović — Softverski programer",
+    "description": "Edvin Tahirović je softverski programer iz Crne Gore specijalizovan za PHP, Laravel, poslovne sisteme i praktične AI tokove rada."
+  },
+  "ui": {
+    "skipToContent": "Pređi na sadržaj",
+    "availability": "Otvoren za nove prilike",
+    "language": {
+      "select": "Izaberi jezik"
+    },
+    "nav": {
+      "home": "Početna",
+      "about": "O meni",
+      "skills": "Veštine",
+      "experience": "Iskustvo",
+      "projects": "Projekti",
+      "contact": "Kontakt",
+      "open": "Otvori navigaciju",
+      "mobile": "Mobilna navigacija",
+      "main": "Glavna navigacija"
+    },
+    "hero": {
+      "lines": [
+        "Pravim korisne",
+        "softverske sisteme koji",
+        "olakšavaju rad."
+      ],
+      "typewriter": ["PHP", "Laravel", "PostgreSQL", "TypeScript", "Praktična AI"],
+      "explore": "Pogledaj moj rad",
+      "viewCv": "Prikaži CV",
+      "basedIn": "Lokacija: Podgorica",
+      "laravelCaption": "PHP · API-ji · sistemi",
+      "aiTitle": "Čovek u kontroli",
+      "aiSubtitle": "Korisna AI zasnovana na podacima",
+      "scroll": "Skrolujte za više",
+      "adminAlt": "AdminisMine finansijska kontrolna tabla",
+      "commerceAlt": "Mora prodavnica e-trgovine",
+      "ebookAlt": "EbookEcommerce katalog"
+    },
+    "about": {
+      "index": "02 / O meni",
+      "title": "Programer sa<br><em>poslovnim pristupom.</em>",
+      "glance": "Kratak pregled",
+      "readExperience": "Pogledaj moje iskustvo"
+    },
+    "skills": {
+      "index": "03 / Sposobnosti",
+      "title": "Alati koje koristim<br><em>da stvari postanu stvarne.</em>",
+      "intro": "Bez procenata. Samo tehnologije, pristupi i jezici koji su zaista deo rada.",
+      "spoken": "Govorni jezici"
+    },
+    "experience": {
+      "index": "04 / Iskustvo",
+      "title": "Učenje blizu<br><em>stvarnog posla.</em>",
+      "intro": "Od finansijskih operacija do razvoja ERP-a, svaka uloga me je naučila da gledam iza same funkcije i razumem tok rada oko nje.",
+      "technologiesLabel": "Tehnologije"
+    },
+    "education": {
+      "index": "Akademska osnova",
+      "courseworkLabel": "Predmeti"
+    },
+    "projects": {
+      "index": "05 / Izabrani projekti",
+      "title": "Izabrani<br><em>Projekti</em>",
+      "intro": "Istražite aplikacije i softverska rešenja koja sam napravio.",
+      "openCase": "Pogledaj projekat"
+    },
+    "more": {
+      "index": "Dodatni radovi",
+      "title": "Više problema,<br>više prostora za učenje.",
+      "radar": "Android i iOS GPS upozorenja za 88 lokacija saobraćajne kontrole u Crnoj Gori.",
+      "erpTag": "ERP / Profesionalni rad",
+      "erp": "Podrška, razvoj funkcija, PDV izveštavanje i integracija sa nacionalnim sistemom e-faktura.",
+      "performanceTag": "Web performanse",
+      "performanceTitle": "Pristupačna e-trgovina",
+      "performance": "Poboljšano učitavanje resursa, WebP isporuka i ARIA atributi za web prodavnicu povezanu sa ERP-om."
+    },
+    "contact": {
+      "eyebrow": "Napravimo nešto korisno",
+      "title": "Imate problem<br>koji vredi <em>rešiti?</em>",
+      "body": "Otvoren sam za softverske prilike u kojima su promišljeno inženjerstvo i stvarni uticaj važni.",
+      "location": "Podgorica, Crna Gora",
+      "languages": "Crnogorski · Engleski · Turski"
+    },
+    "footer": {
+      "role": "Softverski programer",
+      "top": "Nazad na vrh"
+    },
+    "common": {
+      "viewRepository": "Prikaži repozitorijum",
+      "projectPreviews": "Pregledi interfejsa izabranih projekata",
+      "businessSystems": "Poslovni sistemi"
+    },
+    "project": {
+      "skip": "Pređi na projekat",
+      "loading": "Učitavanje prezentacije projekta…",
+      "allProjects": "Svi projekti",
+      "viewSource": "Izvorni kod",
+      "backProjects": "Nazad na projekte",
+      "exploreBuild": "Istraži projekat",
+      "viewRepository": "Prikaži repozitorijum",
+      "liveDemo": "Živa demonstracija",
+      "openRepository": "Otvori GitHub repozitorijum",
+      "backToProjects": "Nazad na projekte",
+      "interfacePreview": "Pregled interfejsa",
+      "applicationReveal": "Prikaz aplikacije",
+      "projectNavigation": "Navigacija projekta",
+      "errorIndex": "Podaci o projektu nisu dostupni",
+      "errorTitle": "Prezentaciju<br><em>nije moguće učitati.</em>",
+      "returnProjects": "Nazad na projekte",
+      "insideIndex": "01 / Unutar proizvoda",
+      "insideTitle": "Dizajnirano za<br><em>stvarnu upotrebu.</em>",
+      "thinkingIndex": "02 / Način razmišljanja",
+      "thinkingTitle": "Od problema<br>do <em>softvera koji radi.</em>",
+      "thinkingBody": "Prezentacija se zasniva na repozitorijumu, njegovoj dokumentaciji i lokalno pokrenutoj aplikaciji.",
+      "problemIndex": "01 / Problem",
+      "problemTitle": "Šta je trebalo rešiti",
+      "approachIndex": "02 / Pristup",
+      "approachTitle": "Radni model",
+      "contributionIndex": "03 / Moj doprinos",
+      "contributionTitle": "Šta sam napravio",
+      "engineeringIndex": "03 / Inženjerske beleške",
+      "engineeringTitle": "Detalji koji<br><em>grade poverenje.</em>",
+      "capabilitiesIndex": "Ključne mogućnosti",
+      "capabilitiesTitle": "Napravljeno da bude korisno",
+      "technicalIndex": "Tehničke odluke",
+      "technicalTitle": "Napravljeno da traje",
+      "stackIndex": "04 / Tehnološki skup",
+      "stackTitle": "Alati koji stoje<br><em>iza iskustva.</em>",
+      "nextProject": "Sledeći projekat",
+      "revealPrefix": "Interfejs je samo površina.",
+      "revealMiddle": "Ovako se delovi posla spajaju:",
+      "featureHeadings": [
+        {
+          "lead": "Napravljeno oko",
+          "accent": "stvarnih tokova rada."
+        },
+        {
+          "lead": "Korisni detalji,",
+          "accent": "učinjeni vidljivim."
+        },
+        {
+          "lead": "Pouzdano",
+          "accent": "po dizajnu."
+        }
+      ]
+    }
+  },
+  "content": {
+    "profile": {
+      "hero": {
+        "eyebrow": "Softverski programer / Crna Gora",
+        "intro": "PHP i Laravel programer fokusiran na jasne sisteme, praktične interfejse i kod koji ostaje pouzdan u stvarnoj upotrebi."
+      },
+      "about": {
+        "lead": "Složene poslovne procese pretvaram u softver koji ljudi zaista mogu da koriste.",
+        "body": [
+          "Moja osnova je u Informacionim sistemima menadžmenta. Tokom stručne PHP obuke u kompaniji Data Design prvo sam radio blizu korisnika i učio kako incidenti i zahtevi utiču na svakodnevni rad, a zatim prešao na razvoj funkcija za Tiramisu ERP.",
+          "Radio sam kroz ceo stack: PHP i PostgreSQL na backendu, JavaScript i savremeni frontend alat na korisničkom interfejsu. Testiranje, pregled koda i dokumentacija deo su istog procesa.",
+          "Posebno me zanimaju finansijski i operativni sistemi, e-trgovina, programerski alati i praktični AI tokovi rada u kojima čovek zadržava kontrolu."
+        ],
+        "principles": [
+          {
+            "title": "Prvo jasnoća",
+            "text": "Modeluj tok rada pre dodavanja apstrakcije. Važno stanje učini vidljivim."
+          },
+          {
+            "title": "Gradi za poverenje",
+            "text": "Proveravaj unose, poštuj dozvole i omogući reviziju važnih radnji."
+          },
+          {
+            "title": "Stalno unapređuj",
+            "text": "Testovi, povratne informacije i merljive performanse čine svaku iteraciju boljom."
+          }
+        ]
+      },
+      "quickFacts": [
+        {
+          "value": "2024",
+          "label": "Diploma iz Informacionih sistema menadžmenta"
+        },
+        {
+          "value": "ERP",
+          "label": "Poslovni softver i korisnička podrška"
+        },
+        {
+          "value": "3",
+          "label": "Jezici: crnogorski, engleski, turski"
+        }
+      ]
+    },
+    "skills": {
+      "categories": [
+        {
+          "name": "Backend",
+          "kicker": "Sistemi",
+          "skills": ["PHP 8", "Laravel", "Eloquent", "REST API", "Redovi poslova", "Događaji", "Sanctum", "OOP"]
+        },
+        {
+          "name": "Podaci",
+          "kicker": "Skladištenje",
+          "skills": ["PostgreSQL", "SQL", "Redis", "Validacija podataka", "Migracije baze"]
+        },
+        {
+          "name": "Frontend i mobilne aplikacije",
+          "kicker": "Interfejs",
+          "skills": ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Alpine.js", "Flutter", "Dart"]
+        },
+        {
+          "name": "AI i automatizacija",
+          "kicker": "Tok rada",
+          "skills": ["OpenAI API", "Anthropic API", "Strukturisani izlazi", "Inženjering upita", "n8n"]
+        },
+        {
+          "name": "Kvalitet i isporuka",
+          "kicker": "Pouzdanost",
+          "skills": ["PHPUnit", "Playwright", "Larastan", "GitHub Actions", "Docker", "Git", "Linux", "Apache", "Nginx"]
+        },
+        {
+          "name": "Alati",
+          "kicker": "Svakodnevno",
+          "skills": ["Git", "Jira", "Xdebug", "Composer", "npm", "WordPress"]
+        }
+      ],
+      "languages": [
+        {
+          "name": "Crnogorski",
+          "level": "Maternji"
+        },
+        {
+          "name": "Engleski",
+          "level": "Napredni"
+        },
+        {
+          "name": "Turski",
+          "level": "Napredni"
+        }
+      ]
+    },
+    "experience": {
+      "jobs": [
+        {
+          "company": "Data Design d.o.o.",
+          "location": "Podgorica, Crna Gora",
+          "title": "PHP programer",
+          "programme": "Stručni program za razvoj nakon studija",
+          "period": "Jan 2026 - Okt 2026",
+          "summary": "Unapređivao sam poslovni ERP i pružao podršku radeći sa starijim kolegama, poslovnim analitičarima i krajnjim korisnicima.",
+          "achievements": [
+            "Razvijao sam funkcije Tiramisu ERP-a u PHP-u, PostgreSQL-u i JavaScript-u na osnovu zahteva poslovnih analitičara, uz pregled koda starijih kolega.",
+            "Radio sam na modulu za PDV i poresko izveštavanje i na SEF projektu koji ERP povezuje sa nacionalnim sistemom e-faktura Srbije.",
+            "Poboljšao sam performanse i pristupačnost web prodavnice povezane sa ERP-om kroz izmenu učitavanja resursa, WebP slike i ARIA atribute.",
+            "Rešavao sam ERP zahteve korisnika, objašnjavao funkcije i uklanjao probleme iz svakodnevnog rada.",
+            "Debagovao sam PHP pomoću Xdebug-a, rešavao probleme sa Apache-om na Ubuntu-u, pisao SQL join-ove i agregacije i primenjivao zaštitu unosa, XSS i CSRF."
+          ],
+          "technologies": ["PHP", "Laravel", "PostgreSQL", "JavaScript", "Jira", "Git"]
+        },
+        {
+          "company": "Global Mine d.o.o.",
+          "location": "Nikšić, Crna Gora",
+          "title": "Administrativni službenik, finansije",
+          "period": "Avg 2024 - Dec 2025",
+          "summary": "Vodio sam finansijske evidencije i podržavao poslovnu komunikaciju na više jezika pre prelaska u razvoj softvera.",
+          "achievements": [
+            "Održavao sam evidencije plaćanja, faktura i potraživanja u Excel-u i Word-u.",
+            "Odgovorno sam rukovao poverljivim finansijskim podacima.",
+            "Pružao sam prevod na turski jezik u svakodnevnom radu finansijskog tima."
+          ],
+          "technologies": ["Excel", "Word", "Finansijske operacije"]
+        }
+      ]
+    },
+    "education": {
+      "degree": {
+        "institution": "Univerzitet Bartın",
+        "location": "Bartın, Turska",
+        "qualification": "Diploma iz Informacionih sistema menadžmenta",
+        "qualificationLead": "Informacioni sistemi menadžmenta",
+        "qualificationAccent": "Diploma",
+        "year": "2024",
+        "summary": "Studije menadžmenta i tehnologije koje povezuju način rada organizacija sa dizajnom, razvojem i upotrebom softvera.",
+        "coursework": ["WordPress", "JavaScript", "C#", "Delphi", "Osnove sajber bezbednosti"]
+      }
+    },
+    "projects": [
+      {
+        "id": "adminismine",
+        "subtitle": "Sistem za finansije i operacije",
+        "category": "Poslovni sistemi",
+        "description": "Sveobuhvatna platforma za finansije i operacije koja objedinjuje obaveze, potraživanja, zarade, proizvodnju, dozvole, izveštavanje i AI asistenta u jednom sistemu sa revizijom.",
+        "contribution": "Razvio sam module za finansije, zarade, dozvole, izveštavanje i višejezičnog AI asistenta opisane u dokumentaciji projekta.",
+        "problem": "Kada su finansijski i operativni podaci razbacani po tabelama, teško je verovati saldima, upravljati dozvolama i pratiti svaku izmenu.",
+        "solution": "Modularna web platforma u kojoj se salda računaju iz izvornih zapisa, važne radnje se beleže, a osetljive izmene štite detaljnim dozvolama.",
+        "features": [
+          "Tokovi za obaveze, potraživanja, banku i gotovinu",
+          "Evidencija zarada, prisustva i dnevne zarade",
+          "Viševalutni zapisi sa kursevima i obrazloženjima",
+          "Devetnaest Excel i PDF izveštaja",
+          "Interfejs na tri jezika sa jezički neutralnim zapisima",
+          "AI asistent na srpskom, turskom i engleskom",
+          "AI predlozi koriste strukturisane podatke, validaciju i izričitu potvrdu korisnika",
+          "Evidencija aktivnosti, uloge i detaljne dozvole"
+        ],
+        "technicalDetails": [
+          "Salda se računaju iz plaćanja i zaduženja umesto čuvanja uredive vrednosti preostalog iznosa.",
+          "Zajednička polimorfna tabela plaćanja povezuje fakture, kirije, pozajmice i bankovne transakcije.",
+          "Čitanja se keširaju, a upisi osvežavaju povezane resurse kako bi kontrolna tabla ostala tačna.",
+          "LLM može da pripremi izmenu, ali je ne može sačuvati bez potvrde čoveka."
+        ],
+        "stats": [
+          { "value": "19", "label": "Excel / PDF izveštaja" },
+          { "value": "3", "label": "Jezika interfejsa" },
+          { "value": "100%", "label": "Evidencija radnji" }
+        ],
+        "screens": [
+          { "alt": "AdminisMine finansijska kontrolna tabla u tamnoj temi", "caption": "Operativni pregled" },
+          { "alt": "AdminisMine prostor za izveštaje sa Excel i PDF izvozom", "caption": "Prilagodljivi izveštaji" },
+          { "alt": "AdminisMine finansijska kontrolna tabla u svetloj temi", "caption": "Svetla i tamna tema" }
+        ]
+      },
+      {
+        "id": "mn-ecommerce",
+        "subtitle": "Mora prodavnica",
+        "category": "E-trgovina",
+        "description": "Kompletna MVP e-trgovina sa pažljivo dizajniranom prodavnicom, Laravel REST API-jem, Filament administracijom i PostgreSQL transakcijama.",
+        "contribution": "Napravio sam prodavnicu, REST API, administrativne tokove i automatizovane testove opisane u repozitorijumu.",
+        "problem": "Web prodavnica mora da održi tačne podatke o proizvodima, zalihama, korpi i plaćanju dok sprečava duple porudžbine i promenu cene na klijentu.",
+        "solution": "Model trgovine u kome server kontroliše cene i zalihe, PostgreSQL transakcije ih proveravaju, ponovljeni zahtevi za plaćanje su idempotentni, a administracija je odvojena od kupca.",
+        "features": [
+          "Katalog proizvoda sa kategorijama, pretragom, sortiranjem i varijantama",
+          "Trajna korpa za goste i prijavljivanje kupaca",
+          "Cene, dostava i popusti koje računa server",
+          "Plaćanje pouzećem ili bankovnim transferom",
+          "Idempotentno ponavljanje checkout procesa",
+          "Filament administracija kataloga, porudžbina, kupaca i dobavljača",
+          "Izveštaji o prihodu i procenjenoj bruto dobiti",
+          "Mapa sajta, metapodaci i responzivne politike"
+        ],
+        "technicalDetails": [
+          "Novčane vrednosti se čuvaju kao celobrojni euro-centi radi izbegavanja grešaka sa decimalama.",
+          "PostgreSQL zaključavanje štiti zalihe i ograničenja kupona tokom plaćanja.",
+          "Testovi u pregledaču i na backendu pokrivaju desktop, mobilni prikaz, konkurentnost i ponovljene porudžbine.",
+          "API poseduje cene, a prodavnica šalje samo identifikatore proizvoda i količine."
+        ],
+        "stats": [
+          { "value": "65", "label": "Automatizovanih testova" },
+          { "value": "8", "label": "Demo proizvoda" },
+          { "value": "2", "label": "Načina plaćanja" }
+        ],
+        "screens": [
+          { "alt": "Početna strana Mora prodavnice sa uredničkom fotografijom proizvoda", "caption": "Urednička prodavnica" },
+          { "alt": "Mora stranica bezžičnih slušalica sa izborom proizvoda", "caption": "Izbor proizvoda" }
+        ]
+      },
+      {
+        "id": "ebook-commerce",
+        "subtitle": "Prodavnica digitalnih knjiga",
+        "category": "Trgovina / sadržaj",
+        "description": "Laravel i React prodavnica knjiga sa pretragom kataloga, Stripe Checkout plaćanjem, bezbednom isporukom digitalnih izdanja i administracijom za objavljivanje knjiga.",
+        "contribution": "Napravio sam prodavnicu, privatnu biblioteku, Stripe tok plaćanja i administrativnu kontrolnu tablu opisanu u repozitorijumu.",
+        "problem": "Digitalna trgovina mora da odvoji prijatan pregled od stroge kontrole pristupa plaćenim fajlovima i stanju porudžbine.",
+        "solution": "Aplikacija u kojoj cene dolaze iz baze, a pristup kupljenim fajlovima se dodeljuje samo nakon potvrđenog Stripe webhook događaja.",
+        "features": [
+          "Katalog knjiga sa pretragom i filtriranjem",
+          "Stranice knjiga sa autorom i formatom",
+          "Stripe Checkout tok kupovine",
+          "Obrada potvrđenog webhook-a za plaćanje",
+          "Privatna biblioteka kupca i zaštićeno preuzimanje",
+          "Administrativni panel za knjige, porudžbine i prihod",
+          "Sačuvana cena u trenutku kupovine",
+          "Pripremljen lokalni demo katalog"
+        ],
+        "technicalDetails": [
+          "E-knjige se čuvaju na privatnom disku, a preuzimanje prolazi proveru vlasništva.",
+          "Pristup biblioteci daje potvrđeni događaj plaćanja, a ne stranica uspeha.",
+          "Stavke porudžbine čuvaju cenu proizvoda u trenutku kupovine.",
+          "Administrativne rute štite autentifikacija i administratorska provera."
+        ],
+        "stats": [
+          { "value": "20", "label": "Pripremljenih knjiga" },
+          { "value": "2", "label": "Prodavnica i administracija" },
+          { "value": "1", "label": "Potvrđeni webhook" }
+        ],
+        "screens": [
+          { "alt": "EbookEcommerce katalog sa šarenim koricama knjiga", "caption": "Urednički katalog" },
+          { "alt": "EbookEcommerce stranica knjige sa dugmetom za kupovinu", "caption": "Detalji knjige" },
+          { "alt": "EbookEcommerce administrativna tabla sa ukupnim brojem knjiga", "caption": "Administrativni pregled" }
+        ]
+      },
+      {
+        "id": "bato-detailing",
+        "subtitle": "Platforma detailing studija",
+        "category": "Uslužno poslovanje",
+        "description": "Laravel i Alpine.js iskustvo rezervacije za premium studio za negu automobila, sa korisničkim nalozima, pristupom zasnovanim na ulogama i pažljivim predstavljanjem usluga.",
+        "contribution": "Napravio sam tokove rezervacije, korisničkih naloga, lojalnosti, faktura i predstavljanja usluga opisane u repozitorijumu.",
+        "problem": "Studio za negu automobila mora da upravlja rezervacijama, komunikacijom i fakturama bez gubitka pažljivo izgrađenog brenda.",
+        "solution": "Web lokacija usmerena na usluge, povezana sa praktičnim Laravel slojem za termine, vozila, fakture i pristup zasnovan na ulogama.",
+        "features": [
+          "Brendirani katalog usluga sa jasnim početnim cenama",
+          "Registracija kupca i rezervacija uz prijavu",
+          "Model pristupa na tri nivoa",
+          "Komentari na terminima i upravljanje statusima",
+          "E-mail obaveštenja kroz red čekanja",
+          "Generisanje PDF faktura",
+          "Poeni lojalnosti",
+          "Responzivni dvojezični interfejs"
+        ],
+        "technicalDetails": [
+          "Termini i usluge koriste normalizovanu vezu više-na-više.",
+          "Politike i uloge razdvajaju mogućnosti kupca, osoblja i administratora.",
+          "PDF fakture se generišu iz podataka o terminu i cenama.",
+          "Interfejs podržava prelazak između engleskog i srpskog."
+        ],
+        "stats": [
+          { "value": "3", "label": "Nivoa pristupa" },
+          { "value": "6", "label": "Paketa usluga" },
+          { "value": "2", "label": "Jezika" }
+        ],
+        "screens": [
+          { "alt": "BatoDetailing katalog sa šest paketa za negu automobila", "caption": "Katalog usluga" },
+          { "alt": "BatoDetailing premium početna strana za negu automobila", "caption": "Brend iskustvo" },
+          { "alt": "BatoDetailing forma za registraciju kupca", "caption": "Registracija kupca" }
+        ]
+      },
+      {
+        "id": "crypto-ai-report",
+        "subtitle": "Automatizovan tok podataka i AI",
+        "category": "Automatizacija / AI",
+        "description": "Zakazani n8n tok koji kombinuje dva javna tržišna API-ja, izračunava objašnjive tržišne signale i šalje dnevni AI izveštaj na Telegram.",
+        "contribution": "Napravio sam tok rada, logiku obrade podataka, korak AI analize i Telegram isporuku opisanu u repozitorijumu.",
+        "problem": "Tržišni pregled mora da pretvori veliki i šumovit API odgovor u kompaktne signale koje AI model može dosledno da obradi.",
+        "solution": "Deterministički JavaScript sloj filtrira i ocenjuje oko 2.000 sredstava pre nego što AI agent napiše kratak izveštaj zasnovan samo na pripremljenim podacima.",
+        "features": [
+          "Zakazano pokretanje svakog dana u 07:00",
+          "Paralelni Fear & Greed i CoinPaprika zahtevi",
+          "Oko 2.000 zapisa sažetih u kompaktan pregled",
+          "Objašnjivo ocenjivanje rizika i momentuma",
+          "Provere širine tržišta, obima i stablecoin-a",
+          "Analiza pomoću Anthropic Claude",
+          "Deljenje izveštaja prema Telegram ograničenjima",
+          "Napomena da izveštaj nije finansijski savet"
+        ],
+        "technicalDetails": [
+          "Pragovi likvidnosti uklanjaju sredstva male tržišne vrednosti i malog obima pre rangiranja.",
+          "Uvezana, staking i dupla stablecoin izdanja uklanjaju se iz tržišnog pregleda.",
+          "Upit ograničava model na dostavljene podatke i tako povećava činjeničnu osnovu odgovora.",
+          "Dugi izveštaji se dele ispod Telegram ograničenja od 4.096 znakova bez prekidanja redova."
+        ],
+        "stats": [
+          { "value": "2K", "label": "Obrađenih tržišnih zapisa" },
+          { "value": "2", "label": "Javna izvora podataka" },
+          { "value": "Dnevno", "label": "Automatska isporuka" }
+        ],
+        "screens": [
+          { "alt": "n8n graf toka za Crypto Market AI Report", "caption": "Graf toka rada" }
+        ]
+      }
+    ]
+  }
+}

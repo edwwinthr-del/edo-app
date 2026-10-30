@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06070c">
+  <meta name="description" content="Selected software project presentations by Edvin Tahirović.">
+  <title>Selected Project — Edvin Tahirović</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/instrument-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/vendor/gsap.min.js" defer></script>
+  <script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/project.js" type="module"></script>
+</head>
+<body class="case-page">
+  <a class="skip-link" href="#project-root" data-i18n="project.skip">Skip to project</a>
+  <div class="page-progress" aria-hidden="true"><span id="scroll-progress"></span></div>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--one"></div>
+    <div class="ambient__orb ambient__orb--two"></div>
+    <div class="ambient__grid"></div>
+    <div class="ambient__noise"></div>
+  </div>
+
+  <header class="site-header case-header" id="site-header">
+    <a class="brand" href="index.html" aria-label="Edvin Tahirović, home">
+      <span class="brand__mark">ET</span>
+      <span class="brand__text">Edvin Tahirović</span>
+    </a>
+    <div class="case-nav">
+      <label class="language-control">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.4 2.5 3.7 5.6 3.7 9S14.4 18.5 12 21c-2.4-2.5-3.7-5.6-3.7-9S9.6 5.5 12 3Z"/></svg>
+        <span class="sr-only">Select language</span>
+        <select id="language-select" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="sr">Srpski</option>
+        </select>
+      </label>
+      <a href="index.html#projects" class="case-nav__back"><span>←</span> <span data-i18n="project.allProjects">All projects</span></a>
+      <span class="case-nav__divider"></span>
+      <a id="case-github" href="https://github.com/edwwinthr-del" target="_blank" rel="noopener noreferrer"><span data-i18n="project.viewSource">View source</span> ↗</a>
+    </div>
+  </header>
+
+  <main id="project-root">
+    <section class="case-loading" aria-live="polite">
+      <span></span>
+      <p data-i18n="project.loading">Loading project presentation…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer case-footer">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">ET</span>
+      <span class="brand__text">Edvin Tahirović</span>
+    </a>
+    <a class="back-to-top" href="index.html#projects"><span data-i18n="project.backProjects">Back to projects</span> <span>←</span></a>
+  </footer>
+</body>
+</html>
