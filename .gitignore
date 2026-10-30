@@ -7,7 +7,7 @@
 /tmp/
 /temp/
 node_modules/
-vendor/
+/vendor/
 .cache/
 .parcel-cache/
 .vite/
